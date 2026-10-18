@@ -1,0 +1,5326 @@
+[
+  {
+    "id": "brisbane",
+    "name": "Brisbane International",
+    "city": "Brisbane",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "venue": "Queensland Tennis Centre",
+    "tours": [
+      "ATP",
+      "WTA"
+    ],
+    "tier": "250",
+    "tiersByTour": {
+      "ATP": "250",
+      "WTA": "500"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-01-04",
+    "endDate": "2026-01-11",
+    "drawSize": 28,
+    "prizeMoneyUsd": 1260000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Jack Draper",
+        "wta": "Jasmine Paolini"
+      },
+      {
+        "year": 2024,
+        "atp": "Tommy Paul",
+        "wta": "Emma Navarro"
+      },
+      {
+        "year": 2023,
+        "atp": "Jiri Lehecka",
+        "wta": "McCartney Kessler"
+      },
+      {
+        "year": 2022,
+        "atp": "Alex de Minaur",
+        "wta": "Barbora Krejcikova"
+      },
+      {
+        "year": 2021,
+        "atp": "Stefanos Tsitsipas",
+        "wta": "Jessica Pegula"
+      },
+      {
+        "year": 2020,
+        "atp": null,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "atp": "Pablo Carreno Busta",
+        "wta": "Caroline Wozniacki"
+      },
+      {
+        "year": 2018,
+        "atp": "Diego Schwartzman",
+        "wta": "Karolina Pliskova"
+      },
+      {
+        "year": 2017,
+        "atp": "Kei Nishikori",
+        "wta": "Garbiñe Muguruza"
+      },
+      {
+        "year": 2016,
+        "atp": "Grigor Dimitrov",
+        "wta": "Anett Kontaveit"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "hong-kong",
+    "name": "Bank of China Hong Kong Tennis Open",
+    "city": "Hong Kong",
+    "countryCode": "CN",
+    "countryName": "China",
+    "venue": "Victoria Park",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "250",
+    "tiersByTour": {
+      "ATP": "250"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-01-05",
+    "endDate": "2026-01-11",
+    "drawSize": 28,
+    "prizeMoneyUsd": 700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Flavio Cobolli"
+      },
+      {
+        "year": 2024,
+        "atp": "Carlos Alcaraz"
+      },
+      {
+        "year": 2023,
+        "atp": "Tomas Machac"
+      },
+      {
+        "year": 2022,
+        "atp": "Felix Auger-Aliassime"
+      },
+      {
+        "year": 2021,
+        "atp": "Daniil Medvedev"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "Roberto Bautista Agut"
+      },
+      {
+        "year": 2018,
+        "atp": "Milos Raonic"
+      },
+      {
+        "year": 2017,
+        "atp": "Lucas Pouille"
+      },
+      {
+        "year": 2016,
+        "atp": "Kei Nishikori"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "auckland-wta",
+    "name": "ASB Classic (WTA)",
+    "city": "Auckland",
+    "countryCode": "NZ",
+    "countryName": "New Zealand",
+    "venue": "ASB Tennis Centre",
+    "tours": [
+      "WTA"
+    ],
+    "tier": "250",
+    "tiersByTour": {
+      "WTA": "250"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-01-05",
+    "endDate": "2026-01-11",
+    "drawSize": 28,
+    "prizeMoneyUsd": 700000,
+    "champions": [
+      {
+        "year": 2025,
+        "wta": "Jessica Pegula"
+      },
+      {
+        "year": 2024,
+        "wta": "Jessica Pegula"
+      },
+      {
+        "year": 2023,
+        "wta": "Jasmine Paolini"
+      },
+      {
+        "year": 2022,
+        "wta": "Barbora Krejcikova"
+      },
+      {
+        "year": 2021,
+        "wta": "Ons Jabeur"
+      },
+      {
+        "year": 2020,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "wta": "Aryna Sabalenka"
+      },
+      {
+        "year": 2018,
+        "wta": "Belinda Bencic"
+      },
+      {
+        "year": 2017,
+        "wta": "Petra Kvitova"
+      },
+      {
+        "year": 2016,
+        "wta": "Elina Svitolina"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "adelaide",
+    "name": "Adelaide International",
+    "city": "Adelaide",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "venue": "Memorial Drive",
+    "tours": [
+      "ATP",
+      "WTA"
+    ],
+    "tier": "250",
+    "tiersByTour": {
+      "ATP": "250",
+      "WTA": "500"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-01-11",
+    "endDate": "2026-01-17",
+    "drawSize": 28,
+    "prizeMoneyUsd": 1260000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Tomas Machac",
+        "wta": "Leylah Fernandez"
+      },
+      {
+        "year": 2024,
+        "atp": "Arthur Fils",
+        "wta": "Jasmine Paolini"
+      },
+      {
+        "year": 2023,
+        "atp": "Tomas Machac",
+        "wta": "Amanda Anisimova"
+      },
+      {
+        "year": 2022,
+        "atp": "Andrey Rublev",
+        "wta": "Jessica Pegula"
+      },
+      {
+        "year": 2021,
+        "atp": "Stefanos Tsitsipas",
+        "wta": "Coco Gauff"
+      },
+      {
+        "year": 2020,
+        "atp": null,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "atp": "Lucas Pouille",
+        "wta": "Karolina Pliskova"
+      },
+      {
+        "year": 2018,
+        "atp": "Pablo Carreno Busta",
+        "wta": "Elise Mertens"
+      },
+      {
+        "year": 2017,
+        "atp": "Marin Cilic",
+        "wta": "Madison Keys"
+      },
+      {
+        "year": 2016,
+        "atp": "Nick Kyrgios",
+        "wta": "Petra Kvitova"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "auckland-atp",
+    "name": "ASB Classic (ATP)",
+    "city": "Auckland",
+    "countryCode": "NZ",
+    "countryName": "New Zealand",
+    "venue": "ASB Tennis Centre",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "250",
+    "tiersByTour": {
+      "ATP": "250"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-01-12",
+    "endDate": "2026-01-17",
+    "drawSize": 28,
+    "prizeMoneyUsd": 700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Tommy Paul"
+      },
+      {
+        "year": 2024,
+        "atp": "Alexander Bublik"
+      },
+      {
+        "year": 2023,
+        "atp": "Lorenzo Musetti"
+      },
+      {
+        "year": 2022,
+        "atp": "Hubert Hurkacz"
+      },
+      {
+        "year": 2021,
+        "atp": "Holger Rune"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "Alexander Zverev"
+      },
+      {
+        "year": 2018,
+        "atp": "Kei Nishikori"
+      },
+      {
+        "year": 2017,
+        "atp": "Nick Kyrgios"
+      },
+      {
+        "year": 2016,
+        "atp": "Gael Monfils"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "hobart",
+    "name": "Hobart International",
+    "city": "Hobart",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "venue": "Domain Tennis Centre",
+    "tours": [
+      "WTA"
+    ],
+    "tier": "250",
+    "tiersByTour": {
+      "WTA": "250"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-01-12",
+    "endDate": "2026-01-17",
+    "drawSize": 28,
+    "prizeMoneyUsd": 700000,
+    "champions": [
+      {
+        "year": 2025,
+        "wta": "McCartney Kessler"
+      },
+      {
+        "year": 2024,
+        "wta": "Jasmine Paolini"
+      },
+      {
+        "year": 2023,
+        "wta": "Jessica Pegula"
+      },
+      {
+        "year": 2022,
+        "wta": "Ons Jabeur"
+      },
+      {
+        "year": 2021,
+        "wta": "Paula Badosa"
+      },
+      {
+        "year": 2020,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "wta": "Anett Kontaveit"
+      },
+      {
+        "year": 2018,
+        "wta": "Anett Kontaveit"
+      },
+      {
+        "year": 2017,
+        "wta": "Garbiñe Muguruza"
+      },
+      {
+        "year": 2016,
+        "wta": "Belinda Bencic"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "australian-open",
+    "name": "Australian Open",
+    "city": "Melbourne",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "venue": "Melbourne Park",
+    "tours": [
+      "ATP",
+      "WTA"
+    ],
+    "tier": "Grand Slam",
+    "tiersByTour": {
+      "ATP": "Grand Slam",
+      "WTA": "Grand Slam"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-01-18",
+    "endDate": "2026-02-01",
+    "drawSize": 128,
+    "prizeMoneyUsd": 65000000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Jannik Sinner",
+        "wta": "Madison Keys"
+      },
+      {
+        "year": 2024,
+        "atp": "Jannik Sinner",
+        "wta": "Aryna Sabalenka"
+      },
+      {
+        "year": 2023,
+        "atp": "Novak Djokovic",
+        "wta": "Aryna Sabalenka"
+      },
+      {
+        "year": 2022,
+        "atp": "Rafael Nadal",
+        "wta": "Ashleigh Barty"
+      },
+      {
+        "year": 2021,
+        "atp": "Novak Djokovic",
+        "wta": "Naomi Osaka"
+      },
+      {
+        "year": 2020,
+        "atp": "Novak Djokovic",
+        "wta": "Sofia Kenin"
+      },
+      {
+        "year": 2019,
+        "atp": "Novak Djokovic",
+        "wta": "Naomi Osaka"
+      },
+      {
+        "year": 2018,
+        "atp": "Roger Federer",
+        "wta": "Caroline Wozniacki"
+      },
+      {
+        "year": 2017,
+        "atp": "Roger Federer",
+        "wta": "Serena Williams"
+      },
+      {
+        "year": 2016,
+        "atp": "Novak Djokovic",
+        "wta": "Angelique Kerber"
+      }
+    ],
+    "championsAreSample": false
+  },
+  {
+    "id": "montpellier",
+    "name": "Open Occitanie",
+    "city": "Montpellier",
+    "countryCode": "FR",
+    "countryName": "France",
+    "venue": "Sud de France Arena",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "250",
+    "tiersByTour": {
+      "ATP": "250"
+    },
+    "surface": "Hard",
+    "indoor": true,
+    "startDate": "2026-02-02",
+    "endDate": "2026-02-08",
+    "drawSize": 28,
+    "prizeMoneyUsd": 700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Alexander Bublik"
+      },
+      {
+        "year": 2024,
+        "atp": "Tommy Paul"
+      },
+      {
+        "year": 2023,
+        "atp": "Jiri Lehecka"
+      },
+      {
+        "year": 2022,
+        "atp": "Holger Rune"
+      },
+      {
+        "year": 2021,
+        "atp": "Karen Khachanov"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "Pablo Carreno Busta"
+      },
+      {
+        "year": 2018,
+        "atp": "Dominic Thiem"
+      },
+      {
+        "year": 2017,
+        "atp": "Richard Gasquet"
+      },
+      {
+        "year": 2016,
+        "atp": "Kei Nishikori"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "abu-dhabi",
+    "name": "Mubadala Abu Dhabi Open",
+    "city": "Abu Dhabi",
+    "countryCode": "AE",
+    "countryName": "United Arab Emirates",
+    "venue": "Zayed Sports City",
+    "tours": [
+      "WTA"
+    ],
+    "tier": "500",
+    "tiersByTour": {
+      "WTA": "500"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-02-02",
+    "endDate": "2026-02-08",
+    "drawSize": 32,
+    "prizeMoneyUsd": 2700000,
+    "champions": [
+      {
+        "year": 2025,
+        "wta": "Jessica Pegula"
+      },
+      {
+        "year": 2024,
+        "wta": "Mirra Andreeva"
+      },
+      {
+        "year": 2023,
+        "wta": "Clara Tauson"
+      },
+      {
+        "year": 2022,
+        "wta": "Liudmila Samsonova"
+      },
+      {
+        "year": 2021,
+        "wta": "Belinda Bencic"
+      },
+      {
+        "year": 2020,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "wta": "Karolina Pliskova"
+      },
+      {
+        "year": 2018,
+        "wta": "Aryna Sabalenka"
+      },
+      {
+        "year": 2017,
+        "wta": "Madison Keys"
+      },
+      {
+        "year": 2016,
+        "wta": "Madison Keys"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "doha-wta",
+    "name": "Qatar TotalEnergies Open",
+    "city": "Doha",
+    "countryCode": "QA",
+    "countryName": "Qatar",
+    "venue": "Khalifa International Tennis Complex",
+    "tours": [
+      "WTA"
+    ],
+    "tier": "1000",
+    "tiersByTour": {
+      "WTA": "1000"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-02-08",
+    "endDate": "2026-02-14",
+    "drawSize": 96,
+    "prizeMoneyUsd": 9000000,
+    "champions": [
+      {
+        "year": 2025,
+        "wta": "Amanda Anisimova"
+      },
+      {
+        "year": 2024,
+        "wta": "Ekaterina Alexandrova"
+      },
+      {
+        "year": 2023,
+        "wta": "Ekaterina Alexandrova"
+      },
+      {
+        "year": 2022,
+        "wta": "Jessica Pegula"
+      },
+      {
+        "year": 2021,
+        "wta": "Barbora Krejcikova"
+      },
+      {
+        "year": 2020,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "wta": "Madison Keys"
+      },
+      {
+        "year": 2018,
+        "wta": "Elina Svitolina"
+      },
+      {
+        "year": 2017,
+        "wta": "Kiki Bertens"
+      },
+      {
+        "year": 2016,
+        "wta": "Garbiñe Muguruza"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "rotterdam",
+    "name": "ABN AMRO Open",
+    "city": "Rotterdam",
+    "countryCode": "NL",
+    "countryName": "Netherlands",
+    "venue": "Ahoy",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "500",
+    "tiersByTour": {
+      "ATP": "500"
+    },
+    "surface": "Hard",
+    "indoor": true,
+    "startDate": "2026-02-09",
+    "endDate": "2026-02-15",
+    "drawSize": 32,
+    "prizeMoneyUsd": 2700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Carlos Alcaraz"
+      },
+      {
+        "year": 2024,
+        "atp": "Ugo Humbert"
+      },
+      {
+        "year": 2023,
+        "atp": "Ugo Humbert"
+      },
+      {
+        "year": 2022,
+        "atp": "Stefanos Tsitsipas"
+      },
+      {
+        "year": 2021,
+        "atp": "Casper Ruud"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "Diego Schwartzman"
+      },
+      {
+        "year": 2018,
+        "atp": "Diego Schwartzman"
+      },
+      {
+        "year": 2017,
+        "atp": "Pablo Carreno Busta"
+      },
+      {
+        "year": 2016,
+        "atp": "Roberto Bautista Agut"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "dallas",
+    "name": "Dallas Open",
+    "city": "Dallas",
+    "countryCode": "US",
+    "countryName": "United States",
+    "venue": "Ford Center at The Star",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "500",
+    "tiersByTour": {
+      "ATP": "500"
+    },
+    "surface": "Hard",
+    "indoor": true,
+    "startDate": "2026-02-09",
+    "endDate": "2026-02-15",
+    "drawSize": 32,
+    "prizeMoneyUsd": 2700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Joao Fonseca"
+      },
+      {
+        "year": 2024,
+        "atp": "Tommy Paul"
+      },
+      {
+        "year": 2023,
+        "atp": "Alexander Bublik"
+      },
+      {
+        "year": 2022,
+        "atp": "Casper Ruud"
+      },
+      {
+        "year": 2021,
+        "atp": "Felix Auger-Aliassime"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "Milos Raonic"
+      },
+      {
+        "year": 2018,
+        "atp": "Marin Cilic"
+      },
+      {
+        "year": 2017,
+        "atp": "Gael Monfils"
+      },
+      {
+        "year": 2016,
+        "atp": "Gael Monfils"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "buenos-aires",
+    "name": "IEB+ Argentina Open",
+    "city": "Buenos Aires",
+    "countryCode": "AR",
+    "countryName": "Argentina",
+    "venue": "Buenos Aires Lawn Tennis Club",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "250",
+    "tiersByTour": {
+      "ATP": "250"
+    },
+    "surface": "Clay",
+    "indoor": false,
+    "startDate": "2026-02-09",
+    "endDate": "2026-02-15",
+    "drawSize": 28,
+    "prizeMoneyUsd": 700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Ben Shelton"
+      },
+      {
+        "year": 2024,
+        "atp": "Alex de Minaur"
+      },
+      {
+        "year": 2023,
+        "atp": "Jack Draper"
+      },
+      {
+        "year": 2022,
+        "atp": "Hubert Hurkacz"
+      },
+      {
+        "year": 2021,
+        "atp": "Daniil Medvedev"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "Lucas Pouille"
+      },
+      {
+        "year": 2018,
+        "atp": "Kei Nishikori"
+      },
+      {
+        "year": 2017,
+        "atp": "Dominic Thiem"
+      },
+      {
+        "year": 2016,
+        "atp": "Kei Nishikori"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "dubai-wta",
+    "name": "Dubai Duty Free Tennis Championships (WTA)",
+    "city": "Dubai",
+    "countryCode": "AE",
+    "countryName": "United Arab Emirates",
+    "venue": "Dubai Duty Free Tennis Stadium",
+    "tours": [
+      "WTA"
+    ],
+    "tier": "1000",
+    "tiersByTour": {
+      "WTA": "1000"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-02-15",
+    "endDate": "2026-02-21",
+    "drawSize": 96,
+    "prizeMoneyUsd": 9000000,
+    "champions": [
+      {
+        "year": 2025,
+        "wta": "Amanda Anisimova"
+      },
+      {
+        "year": 2024,
+        "wta": "Amanda Anisimova"
+      },
+      {
+        "year": 2023,
+        "wta": "Leylah Fernandez"
+      },
+      {
+        "year": 2022,
+        "wta": "Ons Jabeur"
+      },
+      {
+        "year": 2021,
+        "wta": "Barbora Krejcikova"
+      },
+      {
+        "year": 2020,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "wta": "Julia Goerges"
+      },
+      {
+        "year": 2018,
+        "wta": "Anett Kontaveit"
+      },
+      {
+        "year": 2017,
+        "wta": "Madison Keys"
+      },
+      {
+        "year": 2016,
+        "wta": "Julia Goerges"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "doha-atp",
+    "name": "Qatar ExxonMobil Open",
+    "city": "Doha",
+    "countryCode": "QA",
+    "countryName": "Qatar",
+    "venue": "Khalifa International Tennis Complex",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "500",
+    "tiersByTour": {
+      "ATP": "500"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-02-16",
+    "endDate": "2026-02-21",
+    "drawSize": 32,
+    "prizeMoneyUsd": 2700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Jannik Sinner"
+      },
+      {
+        "year": 2024,
+        "atp": "Lorenzo Musetti"
+      },
+      {
+        "year": 2023,
+        "atp": "Ugo Humbert"
+      },
+      {
+        "year": 2022,
+        "atp": "Cameron Norrie"
+      },
+      {
+        "year": 2021,
+        "atp": "Holger Rune"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "Dominic Thiem"
+      },
+      {
+        "year": 2018,
+        "atp": "Lucas Pouille"
+      },
+      {
+        "year": 2017,
+        "atp": "Grigor Dimitrov"
+      },
+      {
+        "year": 2016,
+        "atp": "Lucas Pouille"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "rio",
+    "name": "Rio Open",
+    "city": "Rio de Janeiro",
+    "countryCode": "BR",
+    "countryName": "Brazil",
+    "venue": "Jockey Club Brasileiro",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "500",
+    "tiersByTour": {
+      "ATP": "500"
+    },
+    "surface": "Clay",
+    "indoor": false,
+    "startDate": "2026-02-16",
+    "endDate": "2026-02-22",
+    "drawSize": 32,
+    "prizeMoneyUsd": 2700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Arthur Fils"
+      },
+      {
+        "year": 2024,
+        "atp": "Alex de Minaur"
+      },
+      {
+        "year": 2023,
+        "atp": "Tommy Paul"
+      },
+      {
+        "year": 2022,
+        "atp": "Andrey Rublev"
+      },
+      {
+        "year": 2021,
+        "atp": "Hubert Hurkacz"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "David Goffin"
+      },
+      {
+        "year": 2018,
+        "atp": "Kei Nishikori"
+      },
+      {
+        "year": 2017,
+        "atp": "Richard Gasquet"
+      },
+      {
+        "year": 2016,
+        "atp": "Richard Gasquet"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "delray-beach",
+    "name": "Delray Beach Open",
+    "city": "Delray Beach",
+    "countryCode": "US",
+    "countryName": "United States",
+    "venue": "Delray Beach Tennis Center",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "250",
+    "tiersByTour": {
+      "ATP": "250"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-02-16",
+    "endDate": "2026-02-22",
+    "drawSize": 28,
+    "prizeMoneyUsd": 700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Tomas Machac"
+      },
+      {
+        "year": 2024,
+        "atp": "Tommy Paul"
+      },
+      {
+        "year": 2023,
+        "atp": "Carlos Alcaraz"
+      },
+      {
+        "year": 2022,
+        "atp": "Casper Ruud"
+      },
+      {
+        "year": 2021,
+        "atp": "Alex de Minaur"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "David Goffin"
+      },
+      {
+        "year": 2018,
+        "atp": "Kei Nishikori"
+      },
+      {
+        "year": 2017,
+        "atp": "Diego Schwartzman"
+      },
+      {
+        "year": 2016,
+        "atp": "Richard Gasquet"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "dubai-atp",
+    "name": "Dubai Duty Free Tennis Championships (ATP)",
+    "city": "Dubai",
+    "countryCode": "AE",
+    "countryName": "United Arab Emirates",
+    "venue": "Dubai Duty Free Tennis Stadium",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "500",
+    "tiersByTour": {
+      "ATP": "500"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-02-23",
+    "endDate": "2026-02-28",
+    "drawSize": 32,
+    "prizeMoneyUsd": 2700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Jiri Lehecka"
+      },
+      {
+        "year": 2024,
+        "atp": "Flavio Cobolli"
+      },
+      {
+        "year": 2023,
+        "atp": "Lorenzo Musetti"
+      },
+      {
+        "year": 2022,
+        "atp": "Sebastian Korda"
+      },
+      {
+        "year": 2021,
+        "atp": "Karen Khachanov"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "Kei Nishikori"
+      },
+      {
+        "year": 2018,
+        "atp": "Fabio Fognini"
+      },
+      {
+        "year": 2017,
+        "atp": "Diego Schwartzman"
+      },
+      {
+        "year": 2016,
+        "atp": "Kei Nishikori"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "acapulco",
+    "name": "Abierto Mexicano Telcel",
+    "city": "Acapulco",
+    "countryCode": "MX",
+    "countryName": "Mexico",
+    "venue": "Arena GNP Seguros",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "500",
+    "tiersByTour": {
+      "ATP": "500"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-02-23",
+    "endDate": "2026-02-28",
+    "drawSize": 32,
+    "prizeMoneyUsd": 2700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Arthur Fils"
+      },
+      {
+        "year": 2024,
+        "atp": "Holger Rune"
+      },
+      {
+        "year": 2023,
+        "atp": "Alexander Bublik"
+      },
+      {
+        "year": 2022,
+        "atp": "Alex de Minaur"
+      },
+      {
+        "year": 2021,
+        "atp": "Cameron Norrie"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "Richard Gasquet"
+      },
+      {
+        "year": 2018,
+        "atp": "Kei Nishikori"
+      },
+      {
+        "year": 2017,
+        "atp": "Fabio Fognini"
+      },
+      {
+        "year": 2016,
+        "atp": "Milos Raonic"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "santiago",
+    "name": "Chile Open",
+    "city": "Santiago",
+    "countryCode": "CL",
+    "countryName": "Chile",
+    "venue": "Club San Carlos de Apoquindo",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "250",
+    "tiersByTour": {
+      "ATP": "250"
+    },
+    "surface": "Clay",
+    "indoor": false,
+    "startDate": "2026-02-23",
+    "endDate": "2026-03-01",
+    "drawSize": 28,
+    "prizeMoneyUsd": 700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Holger Rune"
+      },
+      {
+        "year": 2024,
+        "atp": "Carlos Alcaraz"
+      },
+      {
+        "year": 2023,
+        "atp": "Carlos Alcaraz"
+      },
+      {
+        "year": 2022,
+        "atp": "Taylor Fritz"
+      },
+      {
+        "year": 2021,
+        "atp": "Andrey Rublev"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "Fabio Fognini"
+      },
+      {
+        "year": 2018,
+        "atp": "Pablo Carreno Busta"
+      },
+      {
+        "year": 2017,
+        "atp": "Lucas Pouille"
+      },
+      {
+        "year": 2016,
+        "atp": "Richard Gasquet"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "merida",
+    "name": "Merida Open Akron",
+    "city": "Merida",
+    "countryCode": "MX",
+    "countryName": "Mexico",
+    "venue": "Yucatan Country Club",
+    "tours": [
+      "WTA"
+    ],
+    "tier": "500",
+    "tiersByTour": {
+      "WTA": "500"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-02-23",
+    "endDate": "2026-03-01",
+    "drawSize": 32,
+    "prizeMoneyUsd": 2700000,
+    "champions": [
+      {
+        "year": 2025,
+        "wta": "Leylah Fernandez"
+      },
+      {
+        "year": 2024,
+        "wta": "Clara Tauson"
+      },
+      {
+        "year": 2023,
+        "wta": "McCartney Kessler"
+      },
+      {
+        "year": 2022,
+        "wta": "Elena Rybakina"
+      },
+      {
+        "year": 2021,
+        "wta": "Beatriz Haddad Maia"
+      },
+      {
+        "year": 2020,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "wta": "Julia Goerges"
+      },
+      {
+        "year": 2018,
+        "wta": "Elina Svitolina"
+      },
+      {
+        "year": 2017,
+        "wta": "Anett Kontaveit"
+      },
+      {
+        "year": 2016,
+        "wta": "Anett Kontaveit"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "indian-wells",
+    "name": "BNP Paribas Open",
+    "city": "Indian Wells",
+    "countryCode": "US",
+    "countryName": "United States",
+    "venue": "Indian Wells Tennis Garden",
+    "tours": [
+      "ATP",
+      "WTA"
+    ],
+    "tier": "1000",
+    "tiersByTour": {
+      "ATP": "1000",
+      "WTA": "1000"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-03-04",
+    "endDate": "2026-03-15",
+    "drawSize": 96,
+    "prizeMoneyUsd": 16200000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Jack Draper",
+        "wta": "Mirra Andreeva"
+      },
+      {
+        "year": 2024,
+        "atp": "Carlos Alcaraz",
+        "wta": "Iga Swiatek"
+      },
+      {
+        "year": 2023,
+        "atp": "Carlos Alcaraz",
+        "wta": "Elena Rybakina"
+      },
+      {
+        "year": 2022,
+        "atp": "Taylor Fritz",
+        "wta": "Iga Swiatek"
+      },
+      {
+        "year": 2021,
+        "atp": "Cameron Norrie",
+        "wta": "Paula Badosa"
+      },
+      {
+        "year": 2020,
+        "atp": null,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "atp": "Dominic Thiem",
+        "wta": "Bianca Andreescu"
+      },
+      {
+        "year": 2018,
+        "atp": "Juan Martin del Potro",
+        "wta": "Naomi Osaka"
+      },
+      {
+        "year": 2017,
+        "atp": "Roger Federer",
+        "wta": "Elena Vesnina"
+      },
+      {
+        "year": 2016,
+        "atp": "Novak Djokovic",
+        "wta": "Victoria Azarenka"
+      }
+    ],
+    "championsAreSample": false
+  },
+  {
+    "id": "miami",
+    "name": "Miami Open",
+    "city": "Miami",
+    "countryCode": "US",
+    "countryName": "United States",
+    "venue": "Hard Rock Stadium",
+    "tours": [
+      "ATP",
+      "WTA"
+    ],
+    "tier": "1000",
+    "tiersByTour": {
+      "ATP": "1000",
+      "WTA": "1000"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-03-17",
+    "endDate": "2026-03-29",
+    "drawSize": 96,
+    "prizeMoneyUsd": 16200000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Jakub Mensik",
+        "wta": "Aryna Sabalenka"
+      },
+      {
+        "year": 2024,
+        "atp": "Jannik Sinner",
+        "wta": "Danielle Collins"
+      },
+      {
+        "year": 2023,
+        "atp": "Daniil Medvedev",
+        "wta": "Petra Kvitova"
+      },
+      {
+        "year": 2022,
+        "atp": "Carlos Alcaraz",
+        "wta": "Iga Swiatek"
+      },
+      {
+        "year": 2021,
+        "atp": "Hubert Hurkacz",
+        "wta": "Ashleigh Barty"
+      },
+      {
+        "year": 2020,
+        "atp": null,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "atp": "Roger Federer",
+        "wta": "Ashleigh Barty"
+      },
+      {
+        "year": 2018,
+        "atp": "John Isner",
+        "wta": "Sloane Stephens"
+      },
+      {
+        "year": 2017,
+        "atp": "Roger Federer",
+        "wta": "Johanna Konta"
+      },
+      {
+        "year": 2016,
+        "atp": "Novak Djokovic",
+        "wta": "Victoria Azarenka"
+      }
+    ],
+    "championsAreSample": false
+  },
+  {
+    "id": "houston",
+    "name": "U.S. Men's Clay Court Championship",
+    "city": "Houston",
+    "countryCode": "US",
+    "countryName": "United States",
+    "venue": "River Oaks Country Club",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "250",
+    "tiersByTour": {
+      "ATP": "250"
+    },
+    "surface": "Clay",
+    "indoor": false,
+    "startDate": "2026-03-30",
+    "endDate": "2026-04-05",
+    "drawSize": 28,
+    "prizeMoneyUsd": 700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Joao Fonseca"
+      },
+      {
+        "year": 2024,
+        "atp": "Arthur Fils"
+      },
+      {
+        "year": 2023,
+        "atp": "Taylor Fritz"
+      },
+      {
+        "year": 2022,
+        "atp": "Casper Ruud"
+      },
+      {
+        "year": 2021,
+        "atp": "Andrey Rublev"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "David Goffin"
+      },
+      {
+        "year": 2018,
+        "atp": "Milos Raonic"
+      },
+      {
+        "year": 2017,
+        "atp": "Marin Cilic"
+      },
+      {
+        "year": 2016,
+        "atp": "Fabio Fognini"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "marrakech",
+    "name": "Grand Prix Hassan II",
+    "city": "Marrakech",
+    "countryCode": "MA",
+    "countryName": "Morocco",
+    "venue": "Royal Tennis Club",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "250",
+    "tiersByTour": {
+      "ATP": "250"
+    },
+    "surface": "Clay",
+    "indoor": false,
+    "startDate": "2026-03-30",
+    "endDate": "2026-04-05",
+    "drawSize": 28,
+    "prizeMoneyUsd": 700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Joao Fonseca"
+      },
+      {
+        "year": 2024,
+        "atp": "Taylor Fritz"
+      },
+      {
+        "year": 2023,
+        "atp": "Arthur Fils"
+      },
+      {
+        "year": 2022,
+        "atp": "Casper Ruud"
+      },
+      {
+        "year": 2021,
+        "atp": "Lorenzo Sonego"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "Richard Gasquet"
+      },
+      {
+        "year": 2018,
+        "atp": "Alexander Zverev"
+      },
+      {
+        "year": 2017,
+        "atp": "Lucas Pouille"
+      },
+      {
+        "year": 2016,
+        "atp": "Nick Kyrgios"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "charleston",
+    "name": "Credit One Charleston Open",
+    "city": "Charleston",
+    "countryCode": "US",
+    "countryName": "United States",
+    "venue": "Credit One Stadium",
+    "tours": [
+      "WTA"
+    ],
+    "tier": "500",
+    "tiersByTour": {
+      "WTA": "500"
+    },
+    "surface": "Clay",
+    "indoor": false,
+    "startDate": "2026-03-30",
+    "endDate": "2026-04-05",
+    "drawSize": 32,
+    "prizeMoneyUsd": 2700000,
+    "champions": [
+      {
+        "year": 2025,
+        "wta": "Elena Rybakina"
+      },
+      {
+        "year": 2024,
+        "wta": "Mirra Andreeva"
+      },
+      {
+        "year": 2023,
+        "wta": "Jasmine Paolini"
+      },
+      {
+        "year": 2022,
+        "wta": "Elena Rybakina"
+      },
+      {
+        "year": 2021,
+        "wta": "Beatriz Haddad Maia"
+      },
+      {
+        "year": 2020,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "wta": "Kiki Bertens"
+      },
+      {
+        "year": 2018,
+        "wta": "Anett Kontaveit"
+      },
+      {
+        "year": 2017,
+        "wta": "Caroline Wozniacki"
+      },
+      {
+        "year": 2016,
+        "wta": "Elina Svitolina"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "monte-carlo",
+    "name": "Rolex Monte-Carlo Masters",
+    "city": "Monte Carlo",
+    "countryCode": "MC",
+    "countryName": "Monaco",
+    "venue": "Monte-Carlo Country Club",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "1000",
+    "tiersByTour": {
+      "ATP": "1000"
+    },
+    "surface": "Clay",
+    "indoor": false,
+    "startDate": "2026-04-05",
+    "endDate": "2026-04-12",
+    "drawSize": 96,
+    "prizeMoneyUsd": 9000000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Carlos Alcaraz"
+      },
+      {
+        "year": 2024,
+        "atp": "Stefanos Tsitsipas"
+      },
+      {
+        "year": 2023,
+        "atp": "Andrey Rublev"
+      },
+      {
+        "year": 2022,
+        "atp": "Stefanos Tsitsipas"
+      },
+      {
+        "year": 2021,
+        "atp": "Stefanos Tsitsipas"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "Fabio Fognini"
+      },
+      {
+        "year": 2018,
+        "atp": "Rafael Nadal"
+      },
+      {
+        "year": 2017,
+        "atp": "Rafael Nadal"
+      },
+      {
+        "year": 2016,
+        "atp": "Rafael Nadal"
+      }
+    ],
+    "championsAreSample": false
+  },
+  {
+    "id": "barcelona",
+    "name": "Barcelona Open Banc Sabadell",
+    "city": "Barcelona",
+    "countryCode": "ES",
+    "countryName": "Spain",
+    "venue": "Real Club de Tenis Barcelona",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "500",
+    "tiersByTour": {
+      "ATP": "500"
+    },
+    "surface": "Clay",
+    "indoor": false,
+    "startDate": "2026-04-13",
+    "endDate": "2026-04-19",
+    "drawSize": 32,
+    "prizeMoneyUsd": 2700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Tommy Paul"
+      },
+      {
+        "year": 2024,
+        "atp": "Taylor Fritz"
+      },
+      {
+        "year": 2023,
+        "atp": "Joao Fonseca"
+      },
+      {
+        "year": 2022,
+        "atp": "Karen Khachanov"
+      },
+      {
+        "year": 2021,
+        "atp": "Casper Ruud"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "Diego Schwartzman"
+      },
+      {
+        "year": 2018,
+        "atp": "Gael Monfils"
+      },
+      {
+        "year": 2017,
+        "atp": "Grigor Dimitrov"
+      },
+      {
+        "year": 2016,
+        "atp": "Kei Nishikori"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "munich",
+    "name": "BMW Open",
+    "city": "Munich",
+    "countryCode": "DE",
+    "countryName": "Germany",
+    "venue": "MTTC Iphitos",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "500",
+    "tiersByTour": {
+      "ATP": "500"
+    },
+    "surface": "Clay",
+    "indoor": false,
+    "startDate": "2026-04-13",
+    "endDate": "2026-04-19",
+    "drawSize": 32,
+    "prizeMoneyUsd": 2700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Jack Draper"
+      },
+      {
+        "year": 2024,
+        "atp": "Tommy Paul"
+      },
+      {
+        "year": 2023,
+        "atp": "Jannik Sinner"
+      },
+      {
+        "year": 2022,
+        "atp": "Lorenzo Sonego"
+      },
+      {
+        "year": 2021,
+        "atp": "Casper Ruud"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "David Goffin"
+      },
+      {
+        "year": 2018,
+        "atp": "Grigor Dimitrov"
+      },
+      {
+        "year": 2017,
+        "atp": "Marin Cilic"
+      },
+      {
+        "year": 2016,
+        "atp": "Fabio Fognini"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "stuttgart-wta",
+    "name": "Porsche Tennis Grand Prix",
+    "city": "Stuttgart",
+    "countryCode": "DE",
+    "countryName": "Germany",
+    "venue": "Porsche Arena",
+    "tours": [
+      "WTA"
+    ],
+    "tier": "500",
+    "tiersByTour": {
+      "WTA": "500"
+    },
+    "surface": "Clay",
+    "indoor": true,
+    "startDate": "2026-04-13",
+    "endDate": "2026-04-19",
+    "drawSize": 32,
+    "prizeMoneyUsd": 2700000,
+    "champions": [
+      {
+        "year": 2025,
+        "wta": "Diana Shnaider"
+      },
+      {
+        "year": 2024,
+        "wta": "Karolina Muchova"
+      },
+      {
+        "year": 2023,
+        "wta": "Elena Rybakina"
+      },
+      {
+        "year": 2022,
+        "wta": "Paula Badosa"
+      },
+      {
+        "year": 2021,
+        "wta": "Coco Gauff"
+      },
+      {
+        "year": 2020,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "wta": "Belinda Bencic"
+      },
+      {
+        "year": 2018,
+        "wta": "Elise Mertens"
+      },
+      {
+        "year": 2017,
+        "wta": "Madison Keys"
+      },
+      {
+        "year": 2016,
+        "wta": "Madison Keys"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "madrid",
+    "name": "Mutua Madrid Open",
+    "city": "Madrid",
+    "countryCode": "ES",
+    "countryName": "Spain",
+    "venue": "Caja Mágica",
+    "tours": [
+      "ATP",
+      "WTA"
+    ],
+    "tier": "1000",
+    "tiersByTour": {
+      "ATP": "1000",
+      "WTA": "1000"
+    },
+    "surface": "Clay",
+    "indoor": false,
+    "startDate": "2026-04-22",
+    "endDate": "2026-05-03",
+    "drawSize": 96,
+    "prizeMoneyUsd": 16200000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Casper Ruud",
+        "wta": "Aryna Sabalenka"
+      },
+      {
+        "year": 2024,
+        "atp": "Andrey Rublev",
+        "wta": "Iga Swiatek"
+      },
+      {
+        "year": 2023,
+        "atp": "Carlos Alcaraz",
+        "wta": "Aryna Sabalenka"
+      },
+      {
+        "year": 2022,
+        "atp": "Carlos Alcaraz",
+        "wta": "Ons Jabeur"
+      },
+      {
+        "year": 2021,
+        "atp": "Alexander Zverev",
+        "wta": "Aryna Sabalenka"
+      },
+      {
+        "year": 2020,
+        "atp": null,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "atp": "Novak Djokovic",
+        "wta": "Kiki Bertens"
+      },
+      {
+        "year": 2018,
+        "atp": "Alexander Zverev",
+        "wta": "Petra Kvitova"
+      },
+      {
+        "year": 2017,
+        "atp": "Rafael Nadal",
+        "wta": "Simona Halep"
+      },
+      {
+        "year": 2016,
+        "atp": "Novak Djokovic",
+        "wta": "Simona Halep"
+      }
+    ],
+    "championsAreSample": false
+  },
+  {
+    "id": "rome",
+    "name": "Internazionali BNL d'Italia",
+    "city": "Rome",
+    "countryCode": "IT",
+    "countryName": "Italy",
+    "venue": "Foro Italico",
+    "tours": [
+      "ATP",
+      "WTA"
+    ],
+    "tier": "1000",
+    "tiersByTour": {
+      "ATP": "1000",
+      "WTA": "1000"
+    },
+    "surface": "Clay",
+    "indoor": false,
+    "startDate": "2026-05-06",
+    "endDate": "2026-05-17",
+    "drawSize": 96,
+    "prizeMoneyUsd": 16200000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Carlos Alcaraz",
+        "wta": "Jasmine Paolini"
+      },
+      {
+        "year": 2024,
+        "atp": "Alexander Zverev",
+        "wta": "Iga Swiatek"
+      },
+      {
+        "year": 2023,
+        "atp": "Daniil Medvedev",
+        "wta": "Elena Rybakina"
+      },
+      {
+        "year": 2022,
+        "atp": "Novak Djokovic",
+        "wta": "Iga Swiatek"
+      },
+      {
+        "year": 2021,
+        "atp": "Rafael Nadal",
+        "wta": "Iga Swiatek"
+      },
+      {
+        "year": 2020,
+        "atp": "Novak Djokovic",
+        "wta": "Simona Halep"
+      },
+      {
+        "year": 2019,
+        "atp": "Rafael Nadal",
+        "wta": "Karolina Pliskova"
+      },
+      {
+        "year": 2018,
+        "atp": "Rafael Nadal",
+        "wta": "Elina Svitolina"
+      },
+      {
+        "year": 2017,
+        "atp": "Alexander Zverev",
+        "wta": "Elina Svitolina"
+      },
+      {
+        "year": 2016,
+        "atp": "Andy Murray",
+        "wta": "Serena Williams"
+      }
+    ],
+    "championsAreSample": false
+  },
+  {
+    "id": "hamburg",
+    "name": "Bitpanda Hamburg Open",
+    "city": "Hamburg",
+    "countryCode": "DE",
+    "countryName": "Germany",
+    "venue": "Rothenbaum",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "500",
+    "tiersByTour": {
+      "ATP": "500"
+    },
+    "surface": "Clay",
+    "indoor": false,
+    "startDate": "2026-05-17",
+    "endDate": "2026-05-23",
+    "drawSize": 32,
+    "prizeMoneyUsd": 2700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Arthur Fils"
+      },
+      {
+        "year": 2024,
+        "atp": "Jannik Sinner"
+      },
+      {
+        "year": 2023,
+        "atp": "Tomas Machac"
+      },
+      {
+        "year": 2022,
+        "atp": "Daniil Medvedev"
+      },
+      {
+        "year": 2021,
+        "atp": "Karen Khachanov"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "Lucas Pouille"
+      },
+      {
+        "year": 2018,
+        "atp": "Lucas Pouille"
+      },
+      {
+        "year": 2017,
+        "atp": "Grigor Dimitrov"
+      },
+      {
+        "year": 2016,
+        "atp": "Lucas Pouille"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "geneva",
+    "name": "Gonet Geneva Open",
+    "city": "Geneva",
+    "countryCode": "CH",
+    "countryName": "Switzerland",
+    "venue": "Tennis Club de Genève",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "250",
+    "tiersByTour": {
+      "ATP": "250"
+    },
+    "surface": "Clay",
+    "indoor": false,
+    "startDate": "2026-05-17",
+    "endDate": "2026-05-23",
+    "drawSize": 28,
+    "prizeMoneyUsd": 700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Alex de Minaur"
+      },
+      {
+        "year": 2024,
+        "atp": "Arthur Fils"
+      },
+      {
+        "year": 2023,
+        "atp": "Alexander Bublik"
+      },
+      {
+        "year": 2022,
+        "atp": "Daniil Medvedev"
+      },
+      {
+        "year": 2021,
+        "atp": "Taylor Fritz"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "Pablo Carreno Busta"
+      },
+      {
+        "year": 2018,
+        "atp": "Jo-Wilfried Tsonga"
+      },
+      {
+        "year": 2017,
+        "atp": "Pablo Carreno Busta"
+      },
+      {
+        "year": 2016,
+        "atp": "Lucas Pouille"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "strasbourg",
+    "name": "Internationaux de Strasbourg",
+    "city": "Strasbourg",
+    "countryCode": "FR",
+    "countryName": "France",
+    "venue": "Tennis Club de Strasbourg",
+    "tours": [
+      "WTA"
+    ],
+    "tier": "500",
+    "tiersByTour": {
+      "WTA": "500"
+    },
+    "surface": "Clay",
+    "indoor": false,
+    "startDate": "2026-05-17",
+    "endDate": "2026-05-23",
+    "drawSize": 32,
+    "prizeMoneyUsd": 2700000,
+    "champions": [
+      {
+        "year": 2025,
+        "wta": "Elena Rybakina"
+      },
+      {
+        "year": 2024,
+        "wta": "Leylah Fernandez"
+      },
+      {
+        "year": 2023,
+        "wta": "Emma Navarro"
+      },
+      {
+        "year": 2022,
+        "wta": "Liudmila Samsonova"
+      },
+      {
+        "year": 2021,
+        "wta": "Jessica Pegula"
+      },
+      {
+        "year": 2020,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "wta": "Kiki Bertens"
+      },
+      {
+        "year": 2018,
+        "wta": "Aryna Sabalenka"
+      },
+      {
+        "year": 2017,
+        "wta": "Belinda Bencic"
+      },
+      {
+        "year": 2016,
+        "wta": "Aryna Sabalenka"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "roland-garros",
+    "name": "Roland Garros",
+    "city": "Paris",
+    "countryCode": "FR",
+    "countryName": "France",
+    "venue": "Stade Roland Garros",
+    "tours": [
+      "ATP",
+      "WTA"
+    ],
+    "tier": "Grand Slam",
+    "tiersByTour": {
+      "ATP": "Grand Slam",
+      "WTA": "Grand Slam"
+    },
+    "surface": "Clay",
+    "indoor": false,
+    "startDate": "2026-05-24",
+    "endDate": "2026-06-07",
+    "drawSize": 128,
+    "prizeMoneyUsd": 65000000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Carlos Alcaraz",
+        "wta": "Coco Gauff"
+      },
+      {
+        "year": 2024,
+        "atp": "Carlos Alcaraz",
+        "wta": "Iga Swiatek"
+      },
+      {
+        "year": 2023,
+        "atp": "Novak Djokovic",
+        "wta": "Iga Swiatek"
+      },
+      {
+        "year": 2022,
+        "atp": "Rafael Nadal",
+        "wta": "Iga Swiatek"
+      },
+      {
+        "year": 2021,
+        "atp": "Novak Djokovic",
+        "wta": "Barbora Krejcikova"
+      },
+      {
+        "year": 2020,
+        "atp": "Rafael Nadal",
+        "wta": "Iga Swiatek"
+      },
+      {
+        "year": 2019,
+        "atp": "Rafael Nadal",
+        "wta": "Ashleigh Barty"
+      },
+      {
+        "year": 2018,
+        "atp": "Rafael Nadal",
+        "wta": "Simona Halep"
+      },
+      {
+        "year": 2017,
+        "atp": "Rafael Nadal",
+        "wta": "Jelena Ostapenko"
+      },
+      {
+        "year": 2016,
+        "atp": "Novak Djokovic",
+        "wta": "Garbiñe Muguruza"
+      }
+    ],
+    "championsAreSample": false
+  },
+  {
+    "id": "stuttgart-atp",
+    "name": "Boss Open",
+    "city": "Stuttgart",
+    "countryCode": "DE",
+    "countryName": "Germany",
+    "venue": "Tennisclub Weissenhof",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "250",
+    "tiersByTour": {
+      "ATP": "250"
+    },
+    "surface": "Grass",
+    "indoor": false,
+    "startDate": "2026-06-08",
+    "endDate": "2026-06-14",
+    "drawSize": 28,
+    "prizeMoneyUsd": 700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Taylor Fritz"
+      },
+      {
+        "year": 2024,
+        "atp": "Jiri Lehecka"
+      },
+      {
+        "year": 2023,
+        "atp": "Arthur Fils"
+      },
+      {
+        "year": 2022,
+        "atp": "Taylor Fritz"
+      },
+      {
+        "year": 2021,
+        "atp": "Hubert Hurkacz"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "Diego Schwartzman"
+      },
+      {
+        "year": 2018,
+        "atp": "Alexander Zverev"
+      },
+      {
+        "year": 2017,
+        "atp": "Richard Gasquet"
+      },
+      {
+        "year": 2016,
+        "atp": "Dominic Thiem"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "s-hertogenbosch",
+    "name": "Libéma Open",
+    "city": "'s-Hertogenbosch",
+    "countryCode": "NL",
+    "countryName": "Netherlands",
+    "venue": "Autotron",
+    "tours": [
+      "ATP",
+      "WTA"
+    ],
+    "tier": "250",
+    "tiersByTour": {
+      "ATP": "250",
+      "WTA": "250"
+    },
+    "surface": "Grass",
+    "indoor": false,
+    "startDate": "2026-06-08",
+    "endDate": "2026-06-14",
+    "drawSize": 28,
+    "prizeMoneyUsd": 1260000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Alex de Minaur",
+        "wta": "McCartney Kessler"
+      },
+      {
+        "year": 2024,
+        "atp": "Alex de Minaur",
+        "wta": "Emma Navarro"
+      },
+      {
+        "year": 2023,
+        "atp": "Ugo Humbert",
+        "wta": "Elena Rybakina"
+      },
+      {
+        "year": 2022,
+        "atp": "Daniil Medvedev",
+        "wta": "Coco Gauff"
+      },
+      {
+        "year": 2021,
+        "atp": "Felix Auger-Aliassime",
+        "wta": "Coco Gauff"
+      },
+      {
+        "year": 2020,
+        "atp": null,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "atp": "David Goffin",
+        "wta": "Belinda Bencic"
+      },
+      {
+        "year": 2018,
+        "atp": "Gael Monfils",
+        "wta": "Karolina Pliskova"
+      },
+      {
+        "year": 2017,
+        "atp": "Nick Kyrgios",
+        "wta": "Kiki Bertens"
+      },
+      {
+        "year": 2016,
+        "atp": "Roberto Bautista Agut",
+        "wta": "Belinda Bencic"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "queens-wta",
+    "name": "HSBC Championships (WTA)",
+    "city": "London",
+    "countryCode": "GB",
+    "countryName": "Great Britain",
+    "venue": "Queen's Club",
+    "tours": [
+      "WTA"
+    ],
+    "tier": "500",
+    "tiersByTour": {
+      "WTA": "500"
+    },
+    "surface": "Grass",
+    "indoor": false,
+    "startDate": "2026-06-08",
+    "endDate": "2026-06-14",
+    "drawSize": 32,
+    "prizeMoneyUsd": 2700000,
+    "champions": [
+      {
+        "year": 2025,
+        "wta": "Jasmine Paolini"
+      },
+      {
+        "year": 2024,
+        "wta": "Jasmine Paolini"
+      },
+      {
+        "year": 2023,
+        "wta": "Clara Tauson"
+      },
+      {
+        "year": 2022,
+        "wta": "Daria Kasatkina"
+      },
+      {
+        "year": 2021,
+        "wta": "Barbora Krejcikova"
+      },
+      {
+        "year": 2020,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "wta": "Kiki Bertens"
+      },
+      {
+        "year": 2018,
+        "wta": "Garbiñe Muguruza"
+      },
+      {
+        "year": 2017,
+        "wta": "Caroline Wozniacki"
+      },
+      {
+        "year": 2016,
+        "wta": "Madison Keys"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "halle",
+    "name": "Terra Wortmann Open",
+    "city": "Halle",
+    "countryCode": "DE",
+    "countryName": "Germany",
+    "venue": "OWL Arena",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "500",
+    "tiersByTour": {
+      "ATP": "500"
+    },
+    "surface": "Grass",
+    "indoor": false,
+    "startDate": "2026-06-15",
+    "endDate": "2026-06-21",
+    "drawSize": 32,
+    "prizeMoneyUsd": 2700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Tomas Machac"
+      },
+      {
+        "year": 2024,
+        "atp": "Flavio Cobolli"
+      },
+      {
+        "year": 2023,
+        "atp": "Joao Fonseca"
+      },
+      {
+        "year": 2022,
+        "atp": "Stefanos Tsitsipas"
+      },
+      {
+        "year": 2021,
+        "atp": "Casper Ruud"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "Nick Kyrgios"
+      },
+      {
+        "year": 2018,
+        "atp": "Alexander Zverev"
+      },
+      {
+        "year": 2017,
+        "atp": "Dominic Thiem"
+      },
+      {
+        "year": 2016,
+        "atp": "Kei Nishikori"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "queens-atp",
+    "name": "HSBC Championships (ATP)",
+    "city": "London",
+    "countryCode": "GB",
+    "countryName": "Great Britain",
+    "venue": "Queen's Club",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "500",
+    "tiersByTour": {
+      "ATP": "500"
+    },
+    "surface": "Grass",
+    "indoor": false,
+    "startDate": "2026-06-15",
+    "endDate": "2026-06-21",
+    "drawSize": 32,
+    "prizeMoneyUsd": 2700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Alexander Bublik"
+      },
+      {
+        "year": 2024,
+        "atp": "Flavio Cobolli"
+      },
+      {
+        "year": 2023,
+        "atp": "Ugo Humbert"
+      },
+      {
+        "year": 2022,
+        "atp": "Karen Khachanov"
+      },
+      {
+        "year": 2021,
+        "atp": "Taylor Fritz"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "David Goffin"
+      },
+      {
+        "year": 2018,
+        "atp": "Gael Monfils"
+      },
+      {
+        "year": 2017,
+        "atp": "Lucas Pouille"
+      },
+      {
+        "year": 2016,
+        "atp": "Jo-Wilfried Tsonga"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "berlin",
+    "name": "Berlin Tennis Open",
+    "city": "Berlin",
+    "countryCode": "DE",
+    "countryName": "Germany",
+    "venue": "Steffi Graf Stadium",
+    "tours": [
+      "WTA"
+    ],
+    "tier": "500",
+    "tiersByTour": {
+      "WTA": "500"
+    },
+    "surface": "Grass",
+    "indoor": false,
+    "startDate": "2026-06-15",
+    "endDate": "2026-06-21",
+    "drawSize": 32,
+    "prizeMoneyUsd": 2700000,
+    "champions": [
+      {
+        "year": 2025,
+        "wta": "Leylah Fernandez"
+      },
+      {
+        "year": 2024,
+        "wta": "Jessica Pegula"
+      },
+      {
+        "year": 2023,
+        "wta": "Elena Rybakina"
+      },
+      {
+        "year": 2022,
+        "wta": "Anett Kontaveit"
+      },
+      {
+        "year": 2021,
+        "wta": "Elena Rybakina"
+      },
+      {
+        "year": 2020,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "wta": "Kiki Bertens"
+      },
+      {
+        "year": 2018,
+        "wta": "Petra Kvitova"
+      },
+      {
+        "year": 2017,
+        "wta": "Karolina Pliskova"
+      },
+      {
+        "year": 2016,
+        "wta": "Aryna Sabalenka"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "mallorca",
+    "name": "Mallorca Championships",
+    "city": "Mallorca",
+    "countryCode": "ES",
+    "countryName": "Spain",
+    "venue": "Santa Ponsa Tennis Club",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "250",
+    "tiersByTour": {
+      "ATP": "250"
+    },
+    "surface": "Grass",
+    "indoor": false,
+    "startDate": "2026-06-21",
+    "endDate": "2026-06-27",
+    "drawSize": 28,
+    "prizeMoneyUsd": 700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Tommy Paul"
+      },
+      {
+        "year": 2024,
+        "atp": "Taylor Fritz"
+      },
+      {
+        "year": 2023,
+        "atp": "Tommy Paul"
+      },
+      {
+        "year": 2022,
+        "atp": "Lorenzo Sonego"
+      },
+      {
+        "year": 2021,
+        "atp": "Karen Khachanov"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "Milos Raonic"
+      },
+      {
+        "year": 2018,
+        "atp": "Gael Monfils"
+      },
+      {
+        "year": 2017,
+        "atp": "Roberto Bautista Agut"
+      },
+      {
+        "year": 2016,
+        "atp": "Diego Schwartzman"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "eastbourne",
+    "name": "Lexus Eastbourne Open",
+    "city": "Eastbourne",
+    "countryCode": "GB",
+    "countryName": "Great Britain",
+    "venue": "Devonshire Park",
+    "tours": [
+      "ATP",
+      "WTA"
+    ],
+    "tier": "250",
+    "tiersByTour": {
+      "ATP": "250",
+      "WTA": "500"
+    },
+    "surface": "Grass",
+    "indoor": false,
+    "startDate": "2026-06-21",
+    "endDate": "2026-06-27",
+    "drawSize": 28,
+    "prizeMoneyUsd": 1260000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Jannik Sinner",
+        "wta": "Diana Shnaider"
+      },
+      {
+        "year": 2024,
+        "atp": "Jiri Lehecka",
+        "wta": "Amanda Anisimova"
+      },
+      {
+        "year": 2023,
+        "atp": "Ben Shelton",
+        "wta": "Linda Noskova"
+      },
+      {
+        "year": 2022,
+        "atp": "Cameron Norrie",
+        "wta": "Jessica Pegula"
+      },
+      {
+        "year": 2021,
+        "atp": "Stefanos Tsitsipas",
+        "wta": "Daria Kasatkina"
+      },
+      {
+        "year": 2020,
+        "atp": null,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "atp": "Jo-Wilfried Tsonga",
+        "wta": "Julia Goerges"
+      },
+      {
+        "year": 2018,
+        "atp": "David Goffin",
+        "wta": "Elise Mertens"
+      },
+      {
+        "year": 2017,
+        "atp": "Fabio Fognini",
+        "wta": "Aryna Sabalenka"
+      },
+      {
+        "year": 2016,
+        "atp": "Nick Kyrgios",
+        "wta": "Elise Mertens"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "bad-homburg",
+    "name": "Bad Homburg Open",
+    "city": "Bad Homburg",
+    "countryCode": "DE",
+    "countryName": "Germany",
+    "venue": "TC Bad Homburg",
+    "tours": [
+      "WTA"
+    ],
+    "tier": "500",
+    "tiersByTour": {
+      "WTA": "500"
+    },
+    "surface": "Grass",
+    "indoor": false,
+    "startDate": "2026-06-21",
+    "endDate": "2026-06-27",
+    "drawSize": 32,
+    "prizeMoneyUsd": 2700000,
+    "champions": [
+      {
+        "year": 2025,
+        "wta": "Jessica Pegula"
+      },
+      {
+        "year": 2024,
+        "wta": "Emma Navarro"
+      },
+      {
+        "year": 2023,
+        "wta": "Linda Noskova"
+      },
+      {
+        "year": 2022,
+        "wta": "Veronika Kudermetova"
+      },
+      {
+        "year": 2021,
+        "wta": "Veronika Kudermetova"
+      },
+      {
+        "year": 2020,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "wta": "Kiki Bertens"
+      },
+      {
+        "year": 2018,
+        "wta": "Elina Svitolina"
+      },
+      {
+        "year": 2017,
+        "wta": "Caroline Wozniacki"
+      },
+      {
+        "year": 2016,
+        "wta": "Petra Kvitova"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "wimbledon",
+    "name": "Wimbledon",
+    "city": "London",
+    "countryCode": "GB",
+    "countryName": "Great Britain",
+    "venue": "All England Club",
+    "tours": [
+      "ATP",
+      "WTA"
+    ],
+    "tier": "Grand Slam",
+    "tiersByTour": {
+      "ATP": "Grand Slam",
+      "WTA": "Grand Slam"
+    },
+    "surface": "Grass",
+    "indoor": false,
+    "startDate": "2026-06-29",
+    "endDate": "2026-07-12",
+    "drawSize": 128,
+    "prizeMoneyUsd": 65000000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Jannik Sinner",
+        "wta": "Iga Swiatek"
+      },
+      {
+        "year": 2024,
+        "atp": "Carlos Alcaraz",
+        "wta": "Barbora Krejcikova"
+      },
+      {
+        "year": 2023,
+        "atp": "Carlos Alcaraz",
+        "wta": "Marketa Vondrousova"
+      },
+      {
+        "year": 2022,
+        "atp": "Novak Djokovic",
+        "wta": "Elena Rybakina"
+      },
+      {
+        "year": 2021,
+        "atp": "Novak Djokovic",
+        "wta": "Ashleigh Barty"
+      },
+      {
+        "year": 2020,
+        "atp": null,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "atp": "Novak Djokovic",
+        "wta": "Simona Halep"
+      },
+      {
+        "year": 2018,
+        "atp": "Novak Djokovic",
+        "wta": "Angelique Kerber"
+      },
+      {
+        "year": 2017,
+        "atp": "Roger Federer",
+        "wta": "Garbiñe Muguruza"
+      },
+      {
+        "year": 2016,
+        "atp": "Andy Murray",
+        "wta": "Serena Williams"
+      }
+    ],
+    "championsAreSample": false
+  },
+  {
+    "id": "bastad",
+    "name": "Nordea Open",
+    "city": "Båstad",
+    "countryCode": "SE",
+    "countryName": "Sweden",
+    "venue": "Båstad Tennis Stadium",
+    "tours": [
+      "ATP",
+      "WTA"
+    ],
+    "tier": "250",
+    "tiersByTour": {
+      "ATP": "250",
+      "WTA": "250"
+    },
+    "surface": "Clay",
+    "indoor": false,
+    "startDate": "2026-07-13",
+    "endDate": "2026-07-19",
+    "drawSize": 28,
+    "prizeMoneyUsd": 1260000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Jack Draper",
+        "wta": "Amanda Anisimova"
+      },
+      {
+        "year": 2024,
+        "atp": "Ugo Humbert",
+        "wta": "Emma Navarro"
+      },
+      {
+        "year": 2023,
+        "atp": "Jack Draper",
+        "wta": "Linda Noskova"
+      },
+      {
+        "year": 2022,
+        "atp": "Alex de Minaur",
+        "wta": "Belinda Bencic"
+      },
+      {
+        "year": 2021,
+        "atp": "Holger Rune",
+        "wta": "Jessica Pegula"
+      },
+      {
+        "year": 2020,
+        "atp": null,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "atp": "Lucas Pouille",
+        "wta": "Belinda Bencic"
+      },
+      {
+        "year": 2018,
+        "atp": "Jo-Wilfried Tsonga",
+        "wta": "Julia Goerges"
+      },
+      {
+        "year": 2017,
+        "atp": "David Goffin",
+        "wta": "Anett Kontaveit"
+      },
+      {
+        "year": 2016,
+        "atp": "Milos Raonic",
+        "wta": "Garbiñe Muguruza"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "gstaad",
+    "name": "EFG Swiss Open Gstaad",
+    "city": "Gstaad",
+    "countryCode": "CH",
+    "countryName": "Switzerland",
+    "venue": "Roy Emerson Arena",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "250",
+    "tiersByTour": {
+      "ATP": "250"
+    },
+    "surface": "Clay",
+    "indoor": false,
+    "startDate": "2026-07-13",
+    "endDate": "2026-07-19",
+    "drawSize": 28,
+    "prizeMoneyUsd": 700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Tommy Paul"
+      },
+      {
+        "year": 2024,
+        "atp": "Flavio Cobolli"
+      },
+      {
+        "year": 2023,
+        "atp": "Holger Rune"
+      },
+      {
+        "year": 2022,
+        "atp": "Andrey Rublev"
+      },
+      {
+        "year": 2021,
+        "atp": "Holger Rune"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "Pablo Carreno Busta"
+      },
+      {
+        "year": 2018,
+        "atp": "Jo-Wilfried Tsonga"
+      },
+      {
+        "year": 2017,
+        "atp": "Pablo Carreno Busta"
+      },
+      {
+        "year": 2016,
+        "atp": "Dominic Thiem"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "newport",
+    "name": "Infosys Hall of Fame Open",
+    "city": "Newport",
+    "countryCode": "US",
+    "countryName": "United States",
+    "venue": "International Tennis Hall of Fame",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "250",
+    "tiersByTour": {
+      "ATP": "250"
+    },
+    "surface": "Grass",
+    "indoor": false,
+    "startDate": "2026-07-13",
+    "endDate": "2026-07-19",
+    "drawSize": 28,
+    "prizeMoneyUsd": 700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Jiri Lehecka"
+      },
+      {
+        "year": 2024,
+        "atp": "Jack Draper"
+      },
+      {
+        "year": 2023,
+        "atp": "Tomas Machac"
+      },
+      {
+        "year": 2022,
+        "atp": "Karen Khachanov"
+      },
+      {
+        "year": 2021,
+        "atp": "Holger Rune"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "Lucas Pouille"
+      },
+      {
+        "year": 2018,
+        "atp": "Nick Kyrgios"
+      },
+      {
+        "year": 2017,
+        "atp": "Marin Cilic"
+      },
+      {
+        "year": 2016,
+        "atp": "Marin Cilic"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "umag",
+    "name": "Plava Laguna Croatia Open",
+    "city": "Umag",
+    "countryCode": "HR",
+    "countryName": "Croatia",
+    "venue": "Stadion Stella Maris",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "250",
+    "tiersByTour": {
+      "ATP": "250"
+    },
+    "surface": "Clay",
+    "indoor": false,
+    "startDate": "2026-07-20",
+    "endDate": "2026-07-26",
+    "drawSize": 28,
+    "prizeMoneyUsd": 700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Flavio Cobolli"
+      },
+      {
+        "year": 2024,
+        "atp": "Carlos Alcaraz"
+      },
+      {
+        "year": 2023,
+        "atp": "Alex de Minaur"
+      },
+      {
+        "year": 2022,
+        "atp": "Karen Khachanov"
+      },
+      {
+        "year": 2021,
+        "atp": "Alex de Minaur"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "Nick Kyrgios"
+      },
+      {
+        "year": 2018,
+        "atp": "Dominic Thiem"
+      },
+      {
+        "year": 2017,
+        "atp": "Dominic Thiem"
+      },
+      {
+        "year": 2016,
+        "atp": "Pablo Carreno Busta"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "kitzbuhel",
+    "name": "Generali Open",
+    "city": "Kitzbühel",
+    "countryCode": "AT",
+    "countryName": "Austria",
+    "venue": "Tennis Stadium Kitzbühel",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "250",
+    "tiersByTour": {
+      "ATP": "250"
+    },
+    "surface": "Clay",
+    "indoor": false,
+    "startDate": "2026-07-20",
+    "endDate": "2026-07-26",
+    "drawSize": 28,
+    "prizeMoneyUsd": 700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Ugo Humbert"
+      },
+      {
+        "year": 2024,
+        "atp": "Carlos Alcaraz"
+      },
+      {
+        "year": 2023,
+        "atp": "Tomas Machac"
+      },
+      {
+        "year": 2022,
+        "atp": "Stefanos Tsitsipas"
+      },
+      {
+        "year": 2021,
+        "atp": "Taylor Fritz"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "Nick Kyrgios"
+      },
+      {
+        "year": 2018,
+        "atp": "David Goffin"
+      },
+      {
+        "year": 2017,
+        "atp": "Diego Schwartzman"
+      },
+      {
+        "year": 2016,
+        "atp": "Marin Cilic"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "prague",
+    "name": "Livesport Prague Open",
+    "city": "Prague",
+    "countryCode": "CZ",
+    "countryName": "Czechia",
+    "venue": "TK Sparta Prague",
+    "tours": [
+      "WTA"
+    ],
+    "tier": "250",
+    "tiersByTour": {
+      "WTA": "250"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-07-20",
+    "endDate": "2026-07-26",
+    "drawSize": 28,
+    "prizeMoneyUsd": 700000,
+    "champions": [
+      {
+        "year": 2025,
+        "wta": "Ekaterina Alexandrova"
+      },
+      {
+        "year": 2024,
+        "wta": "Ekaterina Alexandrova"
+      },
+      {
+        "year": 2023,
+        "wta": "McCartney Kessler"
+      },
+      {
+        "year": 2022,
+        "wta": "Paula Badosa"
+      },
+      {
+        "year": 2021,
+        "wta": "Beatriz Haddad Maia"
+      },
+      {
+        "year": 2020,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "wta": "Garbiñe Muguruza"
+      },
+      {
+        "year": 2018,
+        "wta": "Anett Kontaveit"
+      },
+      {
+        "year": 2017,
+        "wta": "Petra Kvitova"
+      },
+      {
+        "year": 2016,
+        "wta": "Garbiñe Muguruza"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "washington",
+    "name": "Mubadala Citi DC Open",
+    "city": "Washington",
+    "countryCode": "US",
+    "countryName": "United States",
+    "venue": "Rock Creek Park Tennis Center",
+    "tours": [
+      "ATP",
+      "WTA"
+    ],
+    "tier": "500",
+    "tiersByTour": {
+      "ATP": "500",
+      "WTA": "500"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-07-27",
+    "endDate": "2026-08-02",
+    "drawSize": 32,
+    "prizeMoneyUsd": 4860000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Jack Draper",
+        "wta": "Amanda Anisimova"
+      },
+      {
+        "year": 2024,
+        "atp": "Carlos Alcaraz",
+        "wta": "Emma Navarro"
+      },
+      {
+        "year": 2023,
+        "atp": "Holger Rune",
+        "wta": "Jasmine Paolini"
+      },
+      {
+        "year": 2022,
+        "atp": "Stefanos Tsitsipas",
+        "wta": "Elena Rybakina"
+      },
+      {
+        "year": 2021,
+        "atp": "Casper Ruud",
+        "wta": "Elena Rybakina"
+      },
+      {
+        "year": 2020,
+        "atp": null,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "atp": "David Goffin",
+        "wta": "Elina Svitolina"
+      },
+      {
+        "year": 2018,
+        "atp": "Dominic Thiem",
+        "wta": "Johanna Konta"
+      },
+      {
+        "year": 2017,
+        "atp": "Alexander Zverev",
+        "wta": "Petra Kvitova"
+      },
+      {
+        "year": 2016,
+        "atp": "Dominic Thiem",
+        "wta": "Julia Goerges"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "canada",
+    "name": "National Bank Open",
+    "city": "Montreal / Toronto",
+    "countryCode": "CA",
+    "countryName": "Canada",
+    "venue": "IGA Stadium / Sobeys Stadium",
+    "tours": [
+      "ATP",
+      "WTA"
+    ],
+    "tier": "1000",
+    "tiersByTour": {
+      "ATP": "1000",
+      "WTA": "1000"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-08-02",
+    "endDate": "2026-08-13",
+    "drawSize": 96,
+    "prizeMoneyUsd": 16200000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Ben Shelton",
+        "wta": "Victoria Mboko"
+      },
+      {
+        "year": 2024,
+        "atp": "Alexei Popyrin",
+        "wta": "Jessica Pegula"
+      },
+      {
+        "year": 2023,
+        "atp": "Jannik Sinner",
+        "wta": "Jessica Pegula"
+      },
+      {
+        "year": 2022,
+        "atp": "Pablo Carreno Busta",
+        "wta": "Simona Halep"
+      },
+      {
+        "year": 2021,
+        "atp": "Daniil Medvedev",
+        "wta": "Camila Giorgi"
+      },
+      {
+        "year": 2020,
+        "atp": null,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "atp": "Rafael Nadal",
+        "wta": "Bianca Andreescu"
+      },
+      {
+        "year": 2018,
+        "atp": "Rafael Nadal",
+        "wta": "Simona Halep"
+      },
+      {
+        "year": 2017,
+        "atp": "Alexander Zverev",
+        "wta": "Elina Svitolina"
+      },
+      {
+        "year": 2016,
+        "atp": "Novak Djokovic",
+        "wta": "Simona Halep"
+      }
+    ],
+    "championsAreSample": false
+  },
+  {
+    "id": "cincinnati",
+    "name": "Cincinnati Open",
+    "city": "Cincinnati",
+    "countryCode": "US",
+    "countryName": "United States",
+    "venue": "Lindner Family Tennis Center",
+    "tours": [
+      "ATP",
+      "WTA"
+    ],
+    "tier": "1000",
+    "tiersByTour": {
+      "ATP": "1000",
+      "WTA": "1000"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-08-13",
+    "endDate": "2026-08-24",
+    "drawSize": 96,
+    "prizeMoneyUsd": 16200000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Carlos Alcaraz",
+        "wta": "Iga Swiatek"
+      },
+      {
+        "year": 2024,
+        "atp": "Jannik Sinner",
+        "wta": "Aryna Sabalenka"
+      },
+      {
+        "year": 2023,
+        "atp": "Novak Djokovic",
+        "wta": "Coco Gauff"
+      },
+      {
+        "year": 2022,
+        "atp": "Borna Coric",
+        "wta": "Caroline Garcia"
+      },
+      {
+        "year": 2021,
+        "atp": "Alexander Zverev",
+        "wta": "Ashleigh Barty"
+      },
+      {
+        "year": 2020,
+        "atp": "Novak Djokovic",
+        "wta": "Victoria Azarenka"
+      },
+      {
+        "year": 2019,
+        "atp": "Daniil Medvedev",
+        "wta": "Madison Keys"
+      },
+      {
+        "year": 2018,
+        "atp": "Novak Djokovic",
+        "wta": "Kiki Bertens"
+      },
+      {
+        "year": 2017,
+        "atp": "Grigor Dimitrov",
+        "wta": "Garbiñe Muguruza"
+      },
+      {
+        "year": 2016,
+        "atp": "Marin Cilic",
+        "wta": "Karolina Pliskova"
+      }
+    ],
+    "championsAreSample": false
+  },
+  {
+    "id": "winston-salem",
+    "name": "Winston-Salem Open",
+    "city": "Winston-Salem",
+    "countryCode": "US",
+    "countryName": "United States",
+    "venue": "Wake Forest Tennis Complex",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "250",
+    "tiersByTour": {
+      "ATP": "250"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-08-23",
+    "endDate": "2026-08-29",
+    "drawSize": 28,
+    "prizeMoneyUsd": 700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Joao Fonseca"
+      },
+      {
+        "year": 2024,
+        "atp": "Tomas Machac"
+      },
+      {
+        "year": 2023,
+        "atp": "Lorenzo Musetti"
+      },
+      {
+        "year": 2022,
+        "atp": "Sebastian Korda"
+      },
+      {
+        "year": 2021,
+        "atp": "Karen Khachanov"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "Marin Cilic"
+      },
+      {
+        "year": 2018,
+        "atp": "Lucas Pouille"
+      },
+      {
+        "year": 2017,
+        "atp": "Diego Schwartzman"
+      },
+      {
+        "year": 2016,
+        "atp": "Grigor Dimitrov"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "monterrey",
+    "name": "Abierto GNP Seguros",
+    "city": "Monterrey",
+    "countryCode": "MX",
+    "countryName": "Mexico",
+    "venue": "Club Sonoma",
+    "tours": [
+      "WTA"
+    ],
+    "tier": "500",
+    "tiersByTour": {
+      "WTA": "500"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-08-23",
+    "endDate": "2026-08-29",
+    "drawSize": 32,
+    "prizeMoneyUsd": 2700000,
+    "champions": [
+      {
+        "year": 2025,
+        "wta": "Emma Navarro"
+      },
+      {
+        "year": 2024,
+        "wta": "McCartney Kessler"
+      },
+      {
+        "year": 2023,
+        "wta": "Marta Kostyuk"
+      },
+      {
+        "year": 2022,
+        "wta": "Barbora Krejcikova"
+      },
+      {
+        "year": 2021,
+        "wta": "Anett Kontaveit"
+      },
+      {
+        "year": 2020,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "wta": "Garbiñe Muguruza"
+      },
+      {
+        "year": 2018,
+        "wta": "Garbiñe Muguruza"
+      },
+      {
+        "year": 2017,
+        "wta": "Anett Kontaveit"
+      },
+      {
+        "year": 2016,
+        "wta": "Julia Goerges"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "us-open",
+    "name": "US Open",
+    "city": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "venue": "USTA Billie Jean King National Tennis Center",
+    "tours": [
+      "ATP",
+      "WTA"
+    ],
+    "tier": "Grand Slam",
+    "tiersByTour": {
+      "ATP": "Grand Slam",
+      "WTA": "Grand Slam"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-08-31",
+    "endDate": "2026-09-13",
+    "drawSize": 128,
+    "prizeMoneyUsd": 65000000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Carlos Alcaraz",
+        "wta": "Aryna Sabalenka"
+      },
+      {
+        "year": 2024,
+        "atp": "Jannik Sinner",
+        "wta": "Aryna Sabalenka"
+      },
+      {
+        "year": 2023,
+        "atp": "Novak Djokovic",
+        "wta": "Coco Gauff"
+      },
+      {
+        "year": 2022,
+        "atp": "Carlos Alcaraz",
+        "wta": "Iga Swiatek"
+      },
+      {
+        "year": 2021,
+        "atp": "Daniil Medvedev",
+        "wta": "Emma Raducanu"
+      },
+      {
+        "year": 2020,
+        "atp": "Dominic Thiem",
+        "wta": "Naomi Osaka"
+      },
+      {
+        "year": 2019,
+        "atp": "Rafael Nadal",
+        "wta": "Bianca Andreescu"
+      },
+      {
+        "year": 2018,
+        "atp": "Novak Djokovic",
+        "wta": "Naomi Osaka"
+      },
+      {
+        "year": 2017,
+        "atp": "Rafael Nadal",
+        "wta": "Sloane Stephens"
+      },
+      {
+        "year": 2016,
+        "atp": "Stan Wawrinka",
+        "wta": "Angelique Kerber"
+      }
+    ],
+    "championsAreSample": false
+  },
+  {
+    "id": "chengdu",
+    "name": "Chengdu Open",
+    "city": "Chengdu",
+    "countryCode": "CN",
+    "countryName": "China",
+    "venue": "Sichuan International Tennis Center",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "250",
+    "tiersByTour": {
+      "ATP": "250"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-09-16",
+    "endDate": "2026-09-22",
+    "drawSize": 28,
+    "prizeMoneyUsd": 700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Flavio Cobolli"
+      },
+      {
+        "year": 2024,
+        "atp": "Ben Shelton"
+      },
+      {
+        "year": 2023,
+        "atp": "Jiri Lehecka"
+      },
+      {
+        "year": 2022,
+        "atp": "Cameron Norrie"
+      },
+      {
+        "year": 2021,
+        "atp": "Alex de Minaur"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "Pablo Carreno Busta"
+      },
+      {
+        "year": 2018,
+        "atp": "David Goffin"
+      },
+      {
+        "year": 2017,
+        "atp": "Pablo Carreno Busta"
+      },
+      {
+        "year": 2016,
+        "atp": "Milos Raonic"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "hangzhou",
+    "name": "Hangzhou Open",
+    "city": "Hangzhou",
+    "countryCode": "CN",
+    "countryName": "China",
+    "venue": "Hangzhou Olympic Tennis Center",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "250",
+    "tiersByTour": {
+      "ATP": "250"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-09-16",
+    "endDate": "2026-09-22",
+    "drawSize": 28,
+    "prizeMoneyUsd": 700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Alex de Minaur"
+      },
+      {
+        "year": 2024,
+        "atp": "Ben Shelton"
+      },
+      {
+        "year": 2023,
+        "atp": "Ben Shelton"
+      },
+      {
+        "year": 2022,
+        "atp": "Felix Auger-Aliassime"
+      },
+      {
+        "year": 2021,
+        "atp": "Hubert Hurkacz"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "David Goffin"
+      },
+      {
+        "year": 2018,
+        "atp": "Nick Kyrgios"
+      },
+      {
+        "year": 2017,
+        "atp": "Kei Nishikori"
+      },
+      {
+        "year": 2016,
+        "atp": "Gael Monfils"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "seoul",
+    "name": "Korea Open",
+    "city": "Seoul",
+    "countryCode": "KR",
+    "countryName": "South Korea",
+    "venue": "Olympic Park Tennis Center",
+    "tours": [
+      "WTA"
+    ],
+    "tier": "500",
+    "tiersByTour": {
+      "WTA": "500"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-09-14",
+    "endDate": "2026-09-20",
+    "drawSize": 32,
+    "prizeMoneyUsd": 2700000,
+    "champions": [
+      {
+        "year": 2025,
+        "wta": "Jessica Pegula"
+      },
+      {
+        "year": 2024,
+        "wta": "Emma Navarro"
+      },
+      {
+        "year": 2023,
+        "wta": "McCartney Kessler"
+      },
+      {
+        "year": 2022,
+        "wta": "Veronika Kudermetova"
+      },
+      {
+        "year": 2021,
+        "wta": "Belinda Bencic"
+      },
+      {
+        "year": 2020,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "wta": "Elise Mertens"
+      },
+      {
+        "year": 2018,
+        "wta": "Julia Goerges"
+      },
+      {
+        "year": 2017,
+        "wta": "Julia Goerges"
+      },
+      {
+        "year": 2016,
+        "wta": "Elina Svitolina"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "guadalajara",
+    "name": "Guadalajara Open",
+    "city": "Guadalajara",
+    "countryCode": "MX",
+    "countryName": "Mexico",
+    "venue": "Panamerican Tennis Center",
+    "tours": [
+      "WTA"
+    ],
+    "tier": "500",
+    "tiersByTour": {
+      "WTA": "500"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-09-14",
+    "endDate": "2026-09-20",
+    "drawSize": 32,
+    "prizeMoneyUsd": 2700000,
+    "champions": [
+      {
+        "year": 2025,
+        "wta": "Marta Kostyuk"
+      },
+      {
+        "year": 2024,
+        "wta": "Clara Tauson"
+      },
+      {
+        "year": 2023,
+        "wta": "Linda Noskova"
+      },
+      {
+        "year": 2022,
+        "wta": "Liudmila Samsonova"
+      },
+      {
+        "year": 2021,
+        "wta": "Elena Rybakina"
+      },
+      {
+        "year": 2020,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "wta": "Elise Mertens"
+      },
+      {
+        "year": 2018,
+        "wta": "Johanna Konta"
+      },
+      {
+        "year": 2017,
+        "wta": "Elise Mertens"
+      },
+      {
+        "year": 2016,
+        "wta": "Petra Kvitova"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "tokyo-atp",
+    "name": "Kinoshita Group Japan Open",
+    "city": "Tokyo",
+    "countryCode": "JP",
+    "countryName": "Japan",
+    "venue": "Ariake Coliseum",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "500",
+    "tiersByTour": {
+      "ATP": "500"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-09-23",
+    "endDate": "2026-09-29",
+    "drawSize": 32,
+    "prizeMoneyUsd": 2700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Flavio Cobolli"
+      },
+      {
+        "year": 2024,
+        "atp": "Tomas Machac"
+      },
+      {
+        "year": 2023,
+        "atp": "Arthur Fils"
+      },
+      {
+        "year": 2022,
+        "atp": "Casper Ruud"
+      },
+      {
+        "year": 2021,
+        "atp": "Casper Ruud"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "Richard Gasquet"
+      },
+      {
+        "year": 2018,
+        "atp": "Fabio Fognini"
+      },
+      {
+        "year": 2017,
+        "atp": "Kei Nishikori"
+      },
+      {
+        "year": 2016,
+        "atp": "Nick Kyrgios"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "beijing",
+    "name": "China Open",
+    "city": "Beijing",
+    "countryCode": "CN",
+    "countryName": "China",
+    "venue": "National Tennis Center",
+    "tours": [
+      "ATP",
+      "WTA"
+    ],
+    "tier": "500",
+    "tiersByTour": {
+      "ATP": "500",
+      "WTA": "1000"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-09-23",
+    "endDate": "2026-10-04",
+    "drawSize": 32,
+    "prizeMoneyUsd": 4860000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Jannik Sinner",
+        "wta": "Amanda Anisimova"
+      },
+      {
+        "year": 2024,
+        "atp": "Carlos Alcaraz",
+        "wta": "Coco Gauff"
+      },
+      {
+        "year": 2023,
+        "atp": "Jannik Sinner",
+        "wta": "Iga Swiatek"
+      },
+      {
+        "year": 2022,
+        "atp": null,
+        "wta": null
+      },
+      {
+        "year": 2021,
+        "atp": null,
+        "wta": null
+      },
+      {
+        "year": 2020,
+        "atp": null,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "atp": "Dominic Thiem",
+        "wta": "Naomi Osaka"
+      },
+      {
+        "year": 2018,
+        "atp": "Nikoloz Basilashvili",
+        "wta": "Caroline Wozniacki"
+      },
+      {
+        "year": 2017,
+        "atp": "Rafael Nadal",
+        "wta": "Caroline Garcia"
+      },
+      {
+        "year": 2016,
+        "atp": "Andy Murray",
+        "wta": "Agnieszka Radwanska"
+      }
+    ],
+    "championsAreSample": false
+  },
+  {
+    "id": "shanghai",
+    "name": "Rolex Shanghai Masters",
+    "city": "Shanghai",
+    "countryCode": "CN",
+    "countryName": "China",
+    "venue": "Qizhong Forest Sports City Arena",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "1000",
+    "tiersByTour": {
+      "ATP": "1000"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-12",
+    "drawSize": 96,
+    "prizeMoneyUsd": 9000000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Valentin Vacherot"
+      },
+      {
+        "year": 2024,
+        "atp": "Jannik Sinner"
+      },
+      {
+        "year": 2023,
+        "atp": "Hubert Hurkacz"
+      },
+      {
+        "year": 2022,
+        "atp": null
+      },
+      {
+        "year": 2021,
+        "atp": null
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "Daniil Medvedev"
+      },
+      {
+        "year": 2018,
+        "atp": "Novak Djokovic"
+      },
+      {
+        "year": 2017,
+        "atp": "Roger Federer"
+      },
+      {
+        "year": 2016,
+        "atp": "Andy Murray"
+      }
+    ],
+    "championsAreSample": false
+  },
+  {
+    "id": "wuhan",
+    "name": "Wuhan Open",
+    "city": "Wuhan",
+    "countryCode": "CN",
+    "countryName": "China",
+    "venue": "Optics Valley International Tennis Center",
+    "tours": [
+      "WTA"
+    ],
+    "tier": "1000",
+    "tiersByTour": {
+      "WTA": "1000"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-10-05",
+    "endDate": "2026-10-11",
+    "drawSize": 96,
+    "prizeMoneyUsd": 9000000,
+    "champions": [
+      {
+        "year": 2025,
+        "wta": "Coco Gauff"
+      },
+      {
+        "year": 2024,
+        "wta": "Aryna Sabalenka"
+      },
+      {
+        "year": 2023,
+        "wta": null
+      },
+      {
+        "year": 2022,
+        "wta": null
+      },
+      {
+        "year": 2021,
+        "wta": null
+      },
+      {
+        "year": 2020,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "wta": "Aryna Sabalenka"
+      },
+      {
+        "year": 2018,
+        "wta": "Aryna Sabalenka"
+      },
+      {
+        "year": 2017,
+        "wta": "Caroline Garcia"
+      },
+      {
+        "year": 2016,
+        "wta": "Petra Kvitova"
+      }
+    ],
+    "championsAreSample": false
+  },
+  {
+    "id": "ningbo",
+    "name": "Ningbo Open",
+    "city": "Ningbo",
+    "countryCode": "CN",
+    "countryName": "China",
+    "venue": "Ningbo Yinzhou Tennis Center",
+    "tours": [
+      "WTA"
+    ],
+    "tier": "500",
+    "tiersByTour": {
+      "WTA": "500"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-10-12",
+    "endDate": "2026-10-18",
+    "drawSize": 32,
+    "prizeMoneyUsd": 2700000,
+    "champions": [
+      {
+        "year": 2025,
+        "wta": "Mirra Andreeva"
+      },
+      {
+        "year": 2024,
+        "wta": "Clara Tauson"
+      },
+      {
+        "year": 2023,
+        "wta": "McCartney Kessler"
+      },
+      {
+        "year": 2022,
+        "wta": "Paula Badosa"
+      },
+      {
+        "year": 2021,
+        "wta": "Liudmila Samsonova"
+      },
+      {
+        "year": 2020,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "wta": "Aryna Sabalenka"
+      },
+      {
+        "year": 2018,
+        "wta": "Daria Kasatkina"
+      },
+      {
+        "year": 2017,
+        "wta": "Aryna Sabalenka"
+      },
+      {
+        "year": 2016,
+        "wta": "Elina Svitolina"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "almaty",
+    "name": "Almaty Open",
+    "city": "Almaty",
+    "countryCode": "KZ",
+    "countryName": "Kazakhstan",
+    "venue": "Almaty Arena",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "250",
+    "tiersByTour": {
+      "ATP": "250"
+    },
+    "surface": "Hard",
+    "indoor": true,
+    "startDate": "2026-10-12",
+    "endDate": "2026-10-18",
+    "drawSize": 28,
+    "prizeMoneyUsd": 700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Jack Draper"
+      },
+      {
+        "year": 2024,
+        "atp": "Ben Shelton"
+      },
+      {
+        "year": 2023,
+        "atp": "Tommy Paul"
+      },
+      {
+        "year": 2022,
+        "atp": "Holger Rune"
+      },
+      {
+        "year": 2021,
+        "atp": "Taylor Fritz"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "David Goffin"
+      },
+      {
+        "year": 2018,
+        "atp": "Roberto Bautista Agut"
+      },
+      {
+        "year": 2017,
+        "atp": "Jo-Wilfried Tsonga"
+      },
+      {
+        "year": 2016,
+        "atp": "Pablo Carreno Busta"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "antwerp",
+    "name": "European Open",
+    "city": "Antwerp",
+    "countryCode": "BE",
+    "countryName": "Belgium",
+    "venue": "Lotto Arena",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "250",
+    "tiersByTour": {
+      "ATP": "250"
+    },
+    "surface": "Hard",
+    "indoor": true,
+    "startDate": "2026-10-12",
+    "endDate": "2026-10-18",
+    "drawSize": 28,
+    "prizeMoneyUsd": 700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Tommy Paul"
+      },
+      {
+        "year": 2024,
+        "atp": "Lorenzo Musetti"
+      },
+      {
+        "year": 2023,
+        "atp": "Jannik Sinner"
+      },
+      {
+        "year": 2022,
+        "atp": "Lorenzo Sonego"
+      },
+      {
+        "year": 2021,
+        "atp": "Cameron Norrie"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "Milos Raonic"
+      },
+      {
+        "year": 2018,
+        "atp": "Lucas Pouille"
+      },
+      {
+        "year": 2017,
+        "atp": "Marin Cilic"
+      },
+      {
+        "year": 2016,
+        "atp": "Lucas Pouille"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "stockholm",
+    "name": "BNP Paribas Nordic Open",
+    "city": "Stockholm",
+    "countryCode": "SE",
+    "countryName": "Sweden",
+    "venue": "Kungliga Tennishallen",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "250",
+    "tiersByTour": {
+      "ATP": "250"
+    },
+    "surface": "Hard",
+    "indoor": true,
+    "startDate": "2026-10-12",
+    "endDate": "2026-10-18",
+    "drawSize": 28,
+    "prizeMoneyUsd": 700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Lorenzo Musetti"
+      },
+      {
+        "year": 2024,
+        "atp": "Jack Draper"
+      },
+      {
+        "year": 2023,
+        "atp": "Arthur Fils"
+      },
+      {
+        "year": 2022,
+        "atp": "Felix Auger-Aliassime"
+      },
+      {
+        "year": 2021,
+        "atp": "Cameron Norrie"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "Diego Schwartzman"
+      },
+      {
+        "year": 2018,
+        "atp": "Roberto Bautista Agut"
+      },
+      {
+        "year": 2017,
+        "atp": "Richard Gasquet"
+      },
+      {
+        "year": 2016,
+        "atp": "David Goffin"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "basel",
+    "name": "Swiss Indoors Basel",
+    "city": "Basel",
+    "countryCode": "CH",
+    "countryName": "Switzerland",
+    "venue": "St. Jakobshalle",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "500",
+    "tiersByTour": {
+      "ATP": "500"
+    },
+    "surface": "Hard",
+    "indoor": true,
+    "startDate": "2026-10-19",
+    "endDate": "2026-10-25",
+    "drawSize": 32,
+    "prizeMoneyUsd": 2700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Arthur Fils"
+      },
+      {
+        "year": 2024,
+        "atp": "Holger Rune"
+      },
+      {
+        "year": 2023,
+        "atp": "Arthur Fils"
+      },
+      {
+        "year": 2022,
+        "atp": "Lorenzo Sonego"
+      },
+      {
+        "year": 2021,
+        "atp": "Taylor Fritz"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "Marin Cilic"
+      },
+      {
+        "year": 2018,
+        "atp": "Milos Raonic"
+      },
+      {
+        "year": 2017,
+        "atp": "Richard Gasquet"
+      },
+      {
+        "year": 2016,
+        "atp": "Fabio Fognini"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "vienna",
+    "name": "Erste Bank Open",
+    "city": "Vienna",
+    "countryCode": "AT",
+    "countryName": "Austria",
+    "venue": "Wiener Stadthalle",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "500",
+    "tiersByTour": {
+      "ATP": "500"
+    },
+    "surface": "Hard",
+    "indoor": true,
+    "startDate": "2026-10-19",
+    "endDate": "2026-10-25",
+    "drawSize": 32,
+    "prizeMoneyUsd": 2700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Arthur Fils"
+      },
+      {
+        "year": 2024,
+        "atp": "Arthur Fils"
+      },
+      {
+        "year": 2023,
+        "atp": "Jack Draper"
+      },
+      {
+        "year": 2022,
+        "atp": "Taylor Fritz"
+      },
+      {
+        "year": 2021,
+        "atp": "Taylor Fritz"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "Nick Kyrgios"
+      },
+      {
+        "year": 2018,
+        "atp": "Milos Raonic"
+      },
+      {
+        "year": 2017,
+        "atp": "Kei Nishikori"
+      },
+      {
+        "year": 2016,
+        "atp": "Marin Cilic"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "tokyo-wta",
+    "name": "Toray Pan Pacific Open",
+    "city": "Tokyo",
+    "countryCode": "JP",
+    "countryName": "Japan",
+    "venue": "Ariake Coliseum",
+    "tours": [
+      "WTA"
+    ],
+    "tier": "500",
+    "tiersByTour": {
+      "WTA": "500"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-10-19",
+    "endDate": "2026-10-25",
+    "drawSize": 32,
+    "prizeMoneyUsd": 2700000,
+    "champions": [
+      {
+        "year": 2025,
+        "wta": "Mirra Andreeva"
+      },
+      {
+        "year": 2024,
+        "wta": "Mirra Andreeva"
+      },
+      {
+        "year": 2023,
+        "wta": "Elena Rybakina"
+      },
+      {
+        "year": 2022,
+        "wta": "Coco Gauff"
+      },
+      {
+        "year": 2021,
+        "wta": "Elena Rybakina"
+      },
+      {
+        "year": 2020,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "wta": "Belinda Bencic"
+      },
+      {
+        "year": 2018,
+        "wta": "Elise Mertens"
+      },
+      {
+        "year": 2017,
+        "wta": "Elina Svitolina"
+      },
+      {
+        "year": 2016,
+        "wta": "Johanna Konta"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "guangzhou",
+    "name": "Guangzhou Open",
+    "city": "Guangzhou",
+    "countryCode": "CN",
+    "countryName": "China",
+    "venue": "Guangdong Olympic Tennis Centre",
+    "tours": [
+      "WTA"
+    ],
+    "tier": "250",
+    "tiersByTour": {
+      "WTA": "250"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-10-19",
+    "endDate": "2026-10-25",
+    "drawSize": 28,
+    "prizeMoneyUsd": 700000,
+    "champions": [
+      {
+        "year": 2025,
+        "wta": "Jessica Pegula"
+      },
+      {
+        "year": 2024,
+        "wta": "Jessica Pegula"
+      },
+      {
+        "year": 2023,
+        "wta": "Jessica Pegula"
+      },
+      {
+        "year": 2022,
+        "wta": "Elena Rybakina"
+      },
+      {
+        "year": 2021,
+        "wta": "Elena Rybakina"
+      },
+      {
+        "year": 2020,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "wta": "Julia Goerges"
+      },
+      {
+        "year": 2018,
+        "wta": "Belinda Bencic"
+      },
+      {
+        "year": 2017,
+        "wta": "Belinda Bencic"
+      },
+      {
+        "year": 2016,
+        "wta": "Petra Kvitova"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "paris",
+    "name": "Rolex Paris Masters",
+    "city": "Paris",
+    "countryCode": "FR",
+    "countryName": "France",
+    "venue": "Paris La Défense Arena",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "1000",
+    "tiersByTour": {
+      "ATP": "1000"
+    },
+    "surface": "Hard",
+    "indoor": true,
+    "startDate": "2026-10-26",
+    "endDate": "2026-11-01",
+    "drawSize": 96,
+    "prizeMoneyUsd": 9000000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Jannik Sinner"
+      },
+      {
+        "year": 2024,
+        "atp": "Alexander Zverev"
+      },
+      {
+        "year": 2023,
+        "atp": "Novak Djokovic"
+      },
+      {
+        "year": 2022,
+        "atp": "Holger Rune"
+      },
+      {
+        "year": 2021,
+        "atp": "Novak Djokovic"
+      },
+      {
+        "year": 2020,
+        "atp": "Daniil Medvedev"
+      },
+      {
+        "year": 2019,
+        "atp": "Novak Djokovic"
+      },
+      {
+        "year": 2018,
+        "atp": "Karen Khachanov"
+      },
+      {
+        "year": 2017,
+        "atp": "Jack Sock"
+      },
+      {
+        "year": 2016,
+        "atp": "Andy Murray"
+      }
+    ],
+    "championsAreSample": false
+  },
+  {
+    "id": "hong-kong-wta",
+    "name": "Prudential Hong Kong Tennis Open",
+    "city": "Hong Kong",
+    "countryCode": "CN",
+    "countryName": "China",
+    "venue": "Victoria Park",
+    "tours": [
+      "WTA"
+    ],
+    "tier": "250",
+    "tiersByTour": {
+      "WTA": "250"
+    },
+    "surface": "Hard",
+    "indoor": false,
+    "startDate": "2026-10-26",
+    "endDate": "2026-11-01",
+    "drawSize": 28,
+    "prizeMoneyUsd": 700000,
+    "champions": [
+      {
+        "year": 2025,
+        "wta": "Marta Kostyuk"
+      },
+      {
+        "year": 2024,
+        "wta": "Mirra Andreeva"
+      },
+      {
+        "year": 2023,
+        "wta": "Emma Navarro"
+      },
+      {
+        "year": 2022,
+        "wta": "Barbora Krejcikova"
+      },
+      {
+        "year": 2021,
+        "wta": "Anett Kontaveit"
+      },
+      {
+        "year": 2020,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "wta": "Elise Mertens"
+      },
+      {
+        "year": 2018,
+        "wta": "Kiki Bertens"
+      },
+      {
+        "year": 2017,
+        "wta": "Petra Kvitova"
+      },
+      {
+        "year": 2016,
+        "wta": "Kiki Bertens"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "wta-finals",
+    "name": "WTA Finals",
+    "city": "Riyadh",
+    "countryCode": "SA",
+    "countryName": "Saudi Arabia",
+    "venue": "King Saud University Indoor Arena",
+    "tours": [
+      "WTA"
+    ],
+    "tier": "Finals",
+    "tiersByTour": {
+      "WTA": "Finals"
+    },
+    "surface": "Hard",
+    "indoor": true,
+    "startDate": "2026-11-01",
+    "endDate": "2026-11-08",
+    "drawSize": 8,
+    "prizeMoneyUsd": 15500000,
+    "champions": [
+      {
+        "year": 2025,
+        "wta": "Elena Rybakina"
+      },
+      {
+        "year": 2024,
+        "wta": "Coco Gauff"
+      },
+      {
+        "year": 2023,
+        "wta": "Iga Swiatek"
+      },
+      {
+        "year": 2022,
+        "wta": "Caroline Garcia"
+      },
+      {
+        "year": 2021,
+        "wta": "Garbiñe Muguruza"
+      },
+      {
+        "year": 2020,
+        "wta": null
+      },
+      {
+        "year": 2019,
+        "wta": "Ashleigh Barty"
+      },
+      {
+        "year": 2018,
+        "wta": "Elina Svitolina"
+      },
+      {
+        "year": 2017,
+        "wta": "Caroline Wozniacki"
+      },
+      {
+        "year": 2016,
+        "wta": "Dominika Cibulkova"
+      }
+    ],
+    "championsAreSample": false
+  },
+  {
+    "id": "athens",
+    "name": "Hellenic Championship",
+    "city": "Athens",
+    "countryCode": "GR",
+    "countryName": "Greece",
+    "venue": "OAKA Arena",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "250",
+    "tiersByTour": {
+      "ATP": "250"
+    },
+    "surface": "Hard",
+    "indoor": true,
+    "startDate": "2026-11-01",
+    "endDate": "2026-11-07",
+    "drawSize": 28,
+    "prizeMoneyUsd": 700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Ugo Humbert"
+      },
+      {
+        "year": 2024,
+        "atp": "Alex de Minaur"
+      },
+      {
+        "year": 2023,
+        "atp": "Joao Fonseca"
+      },
+      {
+        "year": 2022,
+        "atp": "Casper Ruud"
+      },
+      {
+        "year": 2021,
+        "atp": "Daniil Medvedev"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "Lucas Pouille"
+      },
+      {
+        "year": 2018,
+        "atp": "Lucas Pouille"
+      },
+      {
+        "year": 2017,
+        "atp": "Pablo Carreno Busta"
+      },
+      {
+        "year": 2016,
+        "atp": "Grigor Dimitrov"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "metz",
+    "name": "Moselle Open",
+    "city": "Metz",
+    "countryCode": "FR",
+    "countryName": "France",
+    "venue": "Les Arènes de Metz",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "250",
+    "tiersByTour": {
+      "ATP": "250"
+    },
+    "surface": "Hard",
+    "indoor": true,
+    "startDate": "2026-11-01",
+    "endDate": "2026-11-07",
+    "drawSize": 28,
+    "prizeMoneyUsd": 700000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Carlos Alcaraz"
+      },
+      {
+        "year": 2024,
+        "atp": "Tommy Paul"
+      },
+      {
+        "year": 2023,
+        "atp": "Alex de Minaur"
+      },
+      {
+        "year": 2022,
+        "atp": "Alex de Minaur"
+      },
+      {
+        "year": 2021,
+        "atp": "Holger Rune"
+      },
+      {
+        "year": 2020,
+        "atp": null
+      },
+      {
+        "year": 2019,
+        "atp": "Diego Schwartzman"
+      },
+      {
+        "year": 2018,
+        "atp": "Alexander Zverev"
+      },
+      {
+        "year": 2017,
+        "atp": "Grigor Dimitrov"
+      },
+      {
+        "year": 2016,
+        "atp": "Diego Schwartzman"
+      }
+    ],
+    "championsAreSample": true
+  },
+  {
+    "id": "atp-finals",
+    "name": "Nitto ATP Finals",
+    "city": "Turin",
+    "countryCode": "IT",
+    "countryName": "Italy",
+    "venue": "Inalpi Arena",
+    "tours": [
+      "ATP"
+    ],
+    "tier": "Finals",
+    "tiersByTour": {
+      "ATP": "Finals"
+    },
+    "surface": "Hard",
+    "indoor": true,
+    "startDate": "2026-11-08",
+    "endDate": "2026-11-15",
+    "drawSize": 8,
+    "prizeMoneyUsd": 15500000,
+    "champions": [
+      {
+        "year": 2025,
+        "atp": "Jannik Sinner"
+      },
+      {
+        "year": 2024,
+        "atp": "Jannik Sinner"
+      },
+      {
+        "year": 2023,
+        "atp": "Novak Djokovic"
+      },
+      {
+        "year": 2022,
+        "atp": "Novak Djokovic"
+      },
+      {
+        "year": 2021,
+        "atp": "Alexander Zverev"
+      },
+      {
+        "year": 2020,
+        "atp": "Daniil Medvedev"
+      },
+      {
+        "year": 2019,
+        "atp": "Stefanos Tsitsipas"
+      },
+      {
+        "year": 2018,
+        "atp": "Alexander Zverev"
+      },
+      {
+        "year": 2017,
+        "atp": "Grigor Dimitrov"
+      },
+      {
+        "year": 2016,
+        "atp": "Andy Murray"
+      }
+    ],
+    "championsAreSample": false
+  }
+]

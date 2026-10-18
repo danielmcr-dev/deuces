@@ -1,0 +1,606 @@
+{
+  "tour": "ATP",
+  "rankingDate": "2026-10-12",
+  "entries": [
+    {
+      "rank": 1,
+      "previousRank": 1,
+      "playerId": "jannik-sinner",
+      "points": 11250
+    },
+    {
+      "rank": 2,
+      "previousRank": 2,
+      "playerId": "carlos-alcaraz",
+      "points": 9840
+    },
+    {
+      "rank": 3,
+      "previousRank": 3,
+      "playerId": "alexander-zverev",
+      "points": 6930
+    },
+    {
+      "rank": 4,
+      "previousRank": 4,
+      "playerId": "novak-djokovic",
+      "points": 5810
+    },
+    {
+      "rank": 5,
+      "previousRank": 5,
+      "playerId": "taylor-fritz",
+      "points": 4925
+    },
+    {
+      "rank": 6,
+      "previousRank": 6,
+      "playerId": "jack-draper",
+      "points": 4510
+    },
+    {
+      "rank": 7,
+      "previousRank": 8,
+      "playerId": "lorenzo-musetti",
+      "points": 4180
+    },
+    {
+      "rank": 8,
+      "previousRank": 7,
+      "playerId": "alex-de-minaur",
+      "points": 3960
+    },
+    {
+      "rank": 9,
+      "previousRank": 9,
+      "playerId": "ben-shelton",
+      "points": 3745
+    },
+    {
+      "rank": 10,
+      "previousRank": 10,
+      "playerId": "felix-auger-aliassime",
+      "points": 3550
+    },
+    {
+      "rank": 11,
+      "previousRank": 11,
+      "playerId": "holger-rune",
+      "points": 3285
+    },
+    {
+      "rank": 12,
+      "previousRank": 12,
+      "playerId": "daniil-medvedev",
+      "points": 3075
+    },
+    {
+      "rank": 13,
+      "previousRank": 13,
+      "playerId": "joao-fonseca",
+      "points": 2895
+    },
+    {
+      "rank": 14,
+      "previousRank": 14,
+      "playerId": "jakub-mensik",
+      "points": 2735
+    },
+    {
+      "rank": 15,
+      "previousRank": 15,
+      "playerId": "andrey-rublev",
+      "points": 2585
+    },
+    {
+      "rank": 16,
+      "previousRank": 16,
+      "playerId": "casper-ruud",
+      "points": 2465
+    },
+    {
+      "rank": 17,
+      "previousRank": 17,
+      "playerId": "tommy-paul",
+      "points": 2365
+    },
+    {
+      "rank": 18,
+      "previousRank": 18,
+      "playerId": "karen-khachanov",
+      "points": 2265
+    },
+    {
+      "rank": 19,
+      "previousRank": 21,
+      "playerId": "stefanos-tsitsipas",
+      "points": 2155
+    },
+    {
+      "rank": 20,
+      "previousRank": 20,
+      "playerId": "jiri-lehecka",
+      "points": 2090
+    },
+    {
+      "rank": 21,
+      "previousRank": 19,
+      "playerId": "francisco-cerundolo",
+      "points": 2000
+    },
+    {
+      "rank": 22,
+      "previousRank": 22,
+      "playerId": "alejandro-davidovich-fokina",
+      "points": 1935
+    },
+    {
+      "rank": 23,
+      "previousRank": 23,
+      "playerId": "ugo-humbert",
+      "points": 1875
+    },
+    {
+      "rank": 24,
+      "previousRank": 25,
+      "playerId": "frances-tiafoe",
+      "points": 1805
+    },
+    {
+      "rank": 25,
+      "previousRank": 24,
+      "playerId": "alexander-bublik",
+      "points": 1750
+    },
+    {
+      "rank": 26,
+      "previousRank": 26,
+      "playerId": "tomas-machac",
+      "points": 1705
+    },
+    {
+      "rank": 27,
+      "previousRank": 27,
+      "playerId": "hubert-hurkacz",
+      "points": 1665
+    },
+    {
+      "rank": 28,
+      "previousRank": 28,
+      "playerId": "flavio-cobolli",
+      "points": 1600
+    },
+    {
+      "rank": 29,
+      "previousRank": 29,
+      "playerId": "learner-tien",
+      "points": 1570
+    },
+    {
+      "rank": 30,
+      "previousRank": 31,
+      "playerId": "grigor-dimitrov",
+      "points": 1530
+    },
+    {
+      "rank": 31,
+      "previousRank": 30,
+      "playerId": "arthur-fils",
+      "points": 1480
+    },
+    {
+      "rank": 32,
+      "previousRank": 36,
+      "playerId": "alex-michelsen",
+      "points": 1465
+    },
+    {
+      "rank": 33,
+      "previousRank": 32,
+      "playerId": "valentin-vacherot",
+      "points": 1415
+    },
+    {
+      "rank": 34,
+      "previousRank": 34,
+      "playerId": "luciano-darderi",
+      "points": 1375
+    },
+    {
+      "rank": 35,
+      "previousRank": 33,
+      "playerId": "tallon-griekspoor",
+      "points": 1360
+    },
+    {
+      "rank": 36,
+      "previousRank": 37,
+      "playerId": "brandon-nakashima",
+      "points": 1320
+    },
+    {
+      "rank": 37,
+      "previousRank": 35,
+      "playerId": "denis-shapovalov",
+      "points": 1290
+    },
+    {
+      "rank": 38,
+      "previousRank": 38,
+      "playerId": "giovanni-mpetshi-perricard",
+      "points": 1280
+    },
+    {
+      "rank": 39,
+      "previousRank": 39,
+      "playerId": "sebastian-korda",
+      "points": 1260
+    },
+    {
+      "rank": 40,
+      "previousRank": 43,
+      "playerId": "alexei-popyrin",
+      "points": 1235
+    },
+    {
+      "rank": 41,
+      "previousRank": 41,
+      "playerId": "arthur-rinderknech",
+      "points": 1210
+    },
+    {
+      "rank": 42,
+      "previousRank": 40,
+      "playerId": "matteo-berrettini",
+      "points": 1180
+    },
+    {
+      "rank": 43,
+      "previousRank": 45,
+      "playerId": "alejandro-tabilo",
+      "points": 1155
+    },
+    {
+      "rank": 44,
+      "previousRank": 50,
+      "playerId": "jaume-munar",
+      "points": 1140
+    },
+    {
+      "rank": 45,
+      "previousRank": 44,
+      "playerId": "cameron-norrie",
+      "points": 1115
+    },
+    {
+      "rank": 46,
+      "previousRank": 48,
+      "playerId": "tomas-martin-etcheverry",
+      "points": 1090
+    },
+    {
+      "rank": 47,
+      "previousRank": 46,
+      "playerId": "mariano-navone",
+      "points": 1080
+    },
+    {
+      "rank": 48,
+      "previousRank": 47,
+      "playerId": "sebastian-baez",
+      "points": 1070
+    },
+    {
+      "rank": 49,
+      "previousRank": 49,
+      "playerId": "gael-monfils",
+      "points": 1050
+    },
+    {
+      "rank": 50,
+      "previousRank": 51,
+      "playerId": "miomir-kecmanovic",
+      "points": 1025
+    },
+    {
+      "rank": 51,
+      "previousRank": 52,
+      "playerId": "marcos-giron",
+      "points": 1010
+    },
+    {
+      "rank": 52,
+      "previousRank": 53,
+      "playerId": "jenson-brooksby",
+      "points": 995
+    },
+    {
+      "rank": 53,
+      "previousRank": 42,
+      "playerId": "reilly-opelka",
+      "points": 990
+    },
+    {
+      "rank": 54,
+      "previousRank": 54,
+      "playerId": "francisco-comesana",
+      "points": 980
+    },
+    {
+      "rank": 55,
+      "previousRank": 56,
+      "playerId": "zizou-bergs",
+      "points": 955
+    },
+    {
+      "rank": 56,
+      "previousRank": 57,
+      "playerId": "jan-lennard-struff",
+      "points": 955
+    },
+    {
+      "rank": 57,
+      "previousRank": 58,
+      "playerId": "rinky-hijikata",
+      "points": 930
+    },
+    {
+      "rank": 58,
+      "previousRank": 60,
+      "playerId": "yoshihito-nishioka",
+      "points": 935
+    },
+    {
+      "rank": 59,
+      "previousRank": 59,
+      "playerId": "marton-fucsovics",
+      "points": 915
+    },
+    {
+      "rank": 60,
+      "previousRank": 63,
+      "playerId": "quentin-halys",
+      "points": 890
+    },
+    {
+      "rank": 61,
+      "previousRank": 55,
+      "playerId": "corentin-moutet",
+      "points": 890
+    },
+    {
+      "rank": 62,
+      "previousRank": 61,
+      "playerId": "benjamin-bonzi",
+      "points": 880
+    },
+    {
+      "rank": 63,
+      "previousRank": 62,
+      "playerId": "gabriel-diallo",
+      "points": 875
+    },
+    {
+      "rank": 64,
+      "previousRank": 65,
+      "playerId": "daniel-altmaier",
+      "points": 850
+    },
+    {
+      "rank": 65,
+      "previousRank": 68,
+      "playerId": "lorenzo-sonego",
+      "points": 855
+    },
+    {
+      "rank": 66,
+      "previousRank": 64,
+      "playerId": "matteo-arnaldi",
+      "points": 830
+    },
+    {
+      "rank": 67,
+      "previousRank": 67,
+      "playerId": "pedro-martinez",
+      "points": 835
+    },
+    {
+      "rank": 68,
+      "previousRank": 69,
+      "playerId": "fabian-marozsan",
+      "points": 815
+    },
+    {
+      "rank": 69,
+      "previousRank": 66,
+      "playerId": "shang-juncheng",
+      "points": 800
+    },
+    {
+      "rank": 70,
+      "previousRank": 87,
+      "playerId": "zhang-zhizhen",
+      "points": 790
+    },
+    {
+      "rank": 71,
+      "previousRank": 72,
+      "playerId": "pablo-carreno-busta",
+      "points": 785
+    },
+    {
+      "rank": 72,
+      "previousRank": 70,
+      "playerId": "roberto-bautista-agut",
+      "points": 795
+    },
+    {
+      "rank": 73,
+      "previousRank": 71,
+      "playerId": "adrian-mannarino",
+      "points": 770
+    },
+    {
+      "rank": 74,
+      "previousRank": 77,
+      "playerId": "sebastian-ofner",
+      "points": 765
+    },
+    {
+      "rank": 75,
+      "previousRank": 75,
+      "playerId": "hamad-medjedovic",
+      "points": 760
+    },
+    {
+      "rank": 76,
+      "previousRank": 74,
+      "playerId": "alexandre-muller",
+      "points": 745
+    },
+    {
+      "rank": 77,
+      "previousRank": 76,
+      "playerId": "vit-kopriva",
+      "points": 740
+    },
+    {
+      "rank": 78,
+      "previousRank": 73,
+      "playerId": "nuno-borges",
+      "points": 740
+    },
+    {
+      "rank": 79,
+      "previousRank": 78,
+      "playerId": "jordan-thompson",
+      "points": 740
+    },
+    {
+      "rank": 80,
+      "previousRank": 81,
+      "playerId": "thanasi-kokkinakis",
+      "points": 720
+    },
+    {
+      "rank": 81,
+      "previousRank": 79,
+      "playerId": "aleksandar-vukic",
+      "points": 720
+    },
+    {
+      "rank": 82,
+      "previousRank": 83,
+      "playerId": "adam-walton",
+      "points": 700
+    },
+    {
+      "rank": 83,
+      "previousRank": 84,
+      "playerId": "ethan-quinn",
+      "points": 710
+    },
+    {
+      "rank": 84,
+      "previousRank": 82,
+      "playerId": "nishesh-basavareddy",
+      "points": 685
+    },
+    {
+      "rank": 85,
+      "previousRank": 88,
+      "playerId": "dino-prizmic",
+      "points": 690
+    },
+    {
+      "rank": 86,
+      "previousRank": 89,
+      "playerId": "jacob-fearnley",
+      "points": 675
+    },
+    {
+      "rank": 87,
+      "previousRank": 85,
+      "playerId": "shintaro-mochizuki",
+      "points": 680
+    },
+    {
+      "rank": 88,
+      "previousRank": 80,
+      "playerId": "roberto-carballes-baena",
+      "points": 660
+    },
+    {
+      "rank": 89,
+      "previousRank": 94,
+      "playerId": "aleksandar-kovacevic",
+      "points": 660
+    },
+    {
+      "rank": 90,
+      "previousRank": 86,
+      "playerId": "emilio-nava",
+      "points": 660
+    },
+    {
+      "rank": 91,
+      "previousRank": 91,
+      "playerId": "juan-manuel-cerundolo",
+      "points": 650
+    },
+    {
+      "rank": 92,
+      "previousRank": 92,
+      "playerId": "camilo-ugo-carabelli",
+      "points": 650
+    },
+    {
+      "rank": 93,
+      "previousRank": 96,
+      "playerId": "valentin-royer",
+      "points": 655
+    },
+    {
+      "rank": 94,
+      "previousRank": 97,
+      "playerId": "hugo-gaston",
+      "points": 650
+    },
+    {
+      "rank": 95,
+      "previousRank": 90,
+      "playerId": "terence-atmane",
+      "points": 645
+    },
+    {
+      "rank": 96,
+      "previousRank": 100,
+      "playerId": "martin-landaluce",
+      "points": 625
+    },
+    {
+      "rank": 97,
+      "previousRank": 95,
+      "playerId": "kamil-majchrzak",
+      "points": 625
+    },
+    {
+      "rank": 98,
+      "previousRank": 93,
+      "playerId": "mattia-bellucci",
+      "points": 630
+    },
+    {
+      "rank": 99,
+      "previousRank": 98,
+      "playerId": "stan-wawrinka",
+      "points": 610
+    },
+    {
+      "rank": 100,
+      "previousRank": 99,
+      "playerId": "laslo-djere",
+      "points": 615
+    }
+  ]
+}

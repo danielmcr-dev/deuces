@@ -1,0 +1,310 @@
+[
+  {
+    "id": "n001",
+    "title": "Sinner powers past Alcaraz to win Shanghai title",
+    "summary": "Jannik Sinner produced a near-flawless serving display to beat Carlos Alcaraz in straight sets and lift the Shanghai Masters trophy, tightening the race for year-end No. 1.",
+    "source": "ATP Tour",
+    "url": "https://www.atptour.com/en/news",
+    "imageUrl": "/images/news/n001.svg",
+    "publishedAt": "2026-10-12T15:20:00Z",
+    "tour": "ATP",
+    "topStory": true,
+    "playerIds": [
+      "jannik-sinner",
+      "carlos-alcaraz"
+    ]
+  },
+  {
+    "id": "n002",
+    "title": "Sabalenka seals year-end No. 1 for third straight season",
+    "summary": "A quarter-final run in Wuhan was enough for Aryna Sabalenka to lock up the WTA year-end top spot, joining an elite group to finish three consecutive seasons on top.",
+    "source": "WTA",
+    "url": "https://www.wtatennis.com/news",
+    "imageUrl": "/images/news/n002.svg",
+    "publishedAt": "2026-10-10T09:00:00Z",
+    "tour": "WTA",
+    "topStory": true,
+    "playerIds": [
+      "aryna-sabalenka"
+    ]
+  },
+  {
+    "id": "n003",
+    "title": "Gauff rallies from a set down to win Wuhan title",
+    "summary": "Coco Gauff saved two championship points before overpowering Iga Swiatek in a two-and-a-half-hour final to claim her second Wuhan trophy.",
+    "source": "Tennis.com",
+    "url": "https://www.tennis.com/news/",
+    "imageUrl": "/images/news/n003.svg",
+    "publishedAt": "2026-10-11T13:45:00Z",
+    "tour": "WTA",
+    "topStory": true,
+    "playerIds": [
+      "coco-gauff",
+      "iga-swiatek"
+    ]
+  },
+  {
+    "id": "n004",
+    "title": "Draper withdraws from indoor swing with arm injury",
+    "summary": "British No. 1 Jack Draper has pulled out of Vienna and Paris as he continues to manage a bone bruise in his left arm, putting his ATP Finals hopes in doubt.",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/tennis",
+    "imageUrl": "/images/news/n004.svg",
+    "publishedAt": "2026-10-14T08:10:00Z",
+    "tour": "ATP",
+    "topStory": true,
+    "playerIds": [
+      "jack-draper"
+    ]
+  },
+  {
+    "id": "n005",
+    "title": "Fonseca wins first indoor title in Stockholm",
+    "summary": "Brazilian teenager Joao Fonseca continued his rapid rise with a commanding victory in the Stockholm final, his third tour-level title of the season.",
+    "source": "ATP Tour",
+    "url": "https://www.atptour.com/en/news",
+    "imageUrl": "/images/news/n005.svg",
+    "publishedAt": "2026-10-18T16:30:00Z",
+    "tour": "ATP",
+    "topStory": false,
+    "playerIds": [
+      "joao-fonseca"
+    ]
+  },
+  {
+    "id": "n006",
+    "title": "Race to Turin: five players chasing the last three spots",
+    "summary": "With Basel, Vienna and Paris still to come, the battle for the final places at the Nitto ATP Finals has never been tighter. We break down every scenario.",
+    "source": "ESPN",
+    "url": "https://www.espn.com/tennis/",
+    "imageUrl": "/images/news/n006.svg",
+    "publishedAt": "2026-10-16T11:00:00Z",
+    "tour": "ATP",
+    "topStory": false,
+    "playerIds": [
+      "lorenzo-musetti",
+      "felix-auger-aliassime",
+      "ben-shelton",
+      "alex-de-minaur"
+    ]
+  },
+  {
+    "id": "n007",
+    "title": "Mboko breaks into the top 10 after Ningbo semi-final",
+    "summary": "Canadian Victoria Mboko has become the youngest woman in the top 10 after reaching the last four in Ningbo, capping a breakout season.",
+    "source": "WTA",
+    "url": "https://www.wtatennis.com/news",
+    "imageUrl": "/images/news/n007.svg",
+    "publishedAt": "2026-10-17T10:15:00Z",
+    "tour": "WTA",
+    "topStory": false,
+    "playerIds": [
+      "victoria-mboko"
+    ]
+  },
+  {
+    "id": "n008",
+    "title": "Djokovic confirms Paris Masters return",
+    "summary": "Novak Djokovic will play the Rolex Paris Masters for the first time in three years as he targets a record-extending eighth ATP Finals title.",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/sport/tennis",
+    "imageUrl": "/images/news/n008.svg",
+    "publishedAt": "2026-10-15T18:40:00Z",
+    "tour": "ATP",
+    "topStory": false,
+    "playerIds": [
+      "novak-djokovic"
+    ]
+  },
+  {
+    "id": "n009",
+    "title": "Zheng Qinwen set for comeback in Tokyo",
+    "summary": "Olympic champion Zheng Qinwen has accepted a wildcard into the Pan Pacific Open, her first event since elbow surgery in the summer.",
+    "source": "Tennis.com",
+    "url": "https://www.tennis.com/news/",
+    "imageUrl": "/images/news/n009.svg",
+    "publishedAt": "2026-10-16T07:30:00Z",
+    "tour": "WTA",
+    "topStory": false,
+    "playerIds": [
+      "zheng-qinwen"
+    ]
+  },
+  {
+    "id": "n010",
+    "title": "Anisimova and Pegula lead US charge into WTA Finals",
+    "summary": "For the first time since 2002, four American women are on course to qualify for the season-ending championships in Riyadh.",
+    "source": "ESPN",
+    "url": "https://www.espn.com/tennis/",
+    "imageUrl": "/images/news/n010.svg",
+    "publishedAt": "2026-10-13T14:00:00Z",
+    "tour": "WTA",
+    "topStory": false,
+    "playerIds": [
+      "amanda-anisimova",
+      "jessica-pegula",
+      "coco-gauff",
+      "madison-keys"
+    ]
+  },
+  {
+    "id": "n011",
+    "title": "Rune targets Paris for return from Achilles injury",
+    "summary": "Holger Rune says he is \"90 per cent\" ready after seven months out, with the Dane planning to test his Achilles at the final Masters 1000 of the year.",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/tennis",
+    "imageUrl": "/images/news/n011.svg",
+    "publishedAt": "2026-10-14T12:20:00Z",
+    "tour": "ATP",
+    "topStory": false,
+    "playerIds": [
+      "holger-rune"
+    ]
+  },
+  {
+    "id": "n012",
+    "title": "Inside the numbers: how Alcaraz rebuilt his second serve",
+    "summary": "A deep dive into the tactical tweaks behind Carlos Alcaraz’s improved hold percentage in 2026 — and why it matters on the quick indoor courts ahead.",
+    "source": "The Athletic",
+    "url": "https://www.nytimes.com/athletic/tennis/",
+    "imageUrl": "/images/news/n012.svg",
+    "publishedAt": "2026-10-09T09:30:00Z",
+    "tour": "ATP",
+    "topStory": false,
+    "playerIds": [
+      "carlos-alcaraz"
+    ]
+  },
+  {
+    "id": "n013",
+    "title": "Osaka out of Tokyo with abdominal strain",
+    "summary": "Naomi Osaka has withdrawn from her home event in Tokyo after scans revealed a grade-one abdominal strain sustained during practice in Ningbo.",
+    "source": "Reuters",
+    "url": "https://www.reuters.com/sports/tennis/",
+    "imageUrl": "/images/news/n013.svg",
+    "publishedAt": "2026-10-17T05:50:00Z",
+    "tour": "WTA",
+    "topStory": false,
+    "playerIds": [
+      "naomi-osaka"
+    ]
+  },
+  {
+    "id": "n014",
+    "title": "Mensik and Lehecka power Czech resurgence",
+    "summary": "With two men inside the top 20 for the first time in over a decade, Czech tennis is enjoying a golden generation on both tours.",
+    "source": "Tennis.com",
+    "url": "https://www.tennis.com/news/",
+    "imageUrl": "/images/news/n014.svg",
+    "publishedAt": "2026-10-08T15:00:00Z",
+    "tour": "ATP",
+    "topStory": false,
+    "playerIds": [
+      "jakub-mensik",
+      "jiri-lehecka"
+    ]
+  },
+  {
+    "id": "n015",
+    "title": "Swiatek splits with coach ahead of 2027 season",
+    "summary": "Iga Swiatek has announced she will part ways with her coaching team at the end of the season, saying she needs \"a new voice\" for the next chapter.",
+    "source": "Reuters",
+    "url": "https://www.reuters.com/sports/tennis/",
+    "imageUrl": "/images/news/n015.svg",
+    "publishedAt": "2026-10-12T19:25:00Z",
+    "tour": "WTA",
+    "topStory": false,
+    "playerIds": [
+      "iga-swiatek"
+    ]
+  },
+  {
+    "id": "n016",
+    "title": "Basel draw: Sinner headlines stacked field",
+    "summary": "Jannik Sinner is the top seed at the Swiss Indoors, with Taylor Fritz, Ben Shelton and home favourite Stan Wawrinka also in the draw.",
+    "source": "ATP Tour",
+    "url": "https://www.atptour.com/en/news",
+    "imageUrl": "/images/news/n016.svg",
+    "publishedAt": "2026-10-18T10:00:00Z",
+    "tour": "ATP",
+    "topStory": false,
+    "playerIds": [
+      "jannik-sinner",
+      "taylor-fritz",
+      "ben-shelton",
+      "stan-wawrinka"
+    ]
+  },
+  {
+    "id": "n017",
+    "title": "Andreeva: \"I want to win a Slam next year\"",
+    "summary": "Mirra Andreeva opens up on her goals for 2027, her new fitness programme and learning to manage expectations at 19.",
+    "source": "WTA",
+    "url": "https://www.wtatennis.com/news",
+    "imageUrl": "/images/news/n017.svg",
+    "publishedAt": "2026-10-07T08:45:00Z",
+    "tour": "WTA",
+    "topStory": false,
+    "playerIds": [
+      "mirra-andreeva"
+    ]
+  },
+  {
+    "id": "n018",
+    "title": "Tour confirms new calendar changes for 2027",
+    "summary": "The ATP and WTA have jointly announced a revised schedule for 2027, including a longer off-season and fewer mandatory events for top players.",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/sport/tennis",
+    "imageUrl": "/images/news/n018.svg",
+    "publishedAt": "2026-10-15T09:10:00Z",
+    "tour": "Both",
+    "topStory": false,
+    "playerIds": []
+  },
+  {
+    "id": "n019",
+    "title": "Shelton’s serve speed record falls in Almaty",
+    "summary": "Giovanni Mpetshi Perricard thundered down a 247 km/h first serve in Almaty, the fastest recorded on tour this season.",
+    "source": "ESPN",
+    "url": "https://www.espn.com/tennis/",
+    "imageUrl": "/images/news/n019.svg",
+    "publishedAt": "2026-10-15T13:35:00Z",
+    "tour": "ATP",
+    "topStory": false,
+    "playerIds": [
+      "giovanni-mpetshi-perricard",
+      "ben-shelton"
+    ]
+  },
+  {
+    "id": "n020",
+    "title": "Paolini and Errani qualify for Riyadh doubles",
+    "summary": "The Italian pair booked their place at the WTA Finals for a third straight year after a title run in Beijing.",
+    "source": "WTA",
+    "url": "https://www.wtatennis.com/news",
+    "imageUrl": "/images/news/n020.svg",
+    "publishedAt": "2026-10-06T16:00:00Z",
+    "tour": "WTA",
+    "topStory": false,
+    "playerIds": [
+      "jasmine-paolini",
+      "sara-errani"
+    ]
+  },
+  {
+    "id": "n021",
+    "title": "Fritz and Paul commit to United Cup",
+    "summary": "Team USA will be led by Taylor Fritz and Tommy Paul as they look to reclaim the mixed-team title in Australia this January.",
+    "source": "Tennis.com",
+    "url": "https://www.tennis.com/news/",
+    "imageUrl": "/images/news/n021.svg",
+    "publishedAt": "2026-10-11T07:00:00Z",
+    "tour": "Both",
+    "topStory": false,
+    "playerIds": [
+      "taylor-fritz",
+      "tommy-paul",
+      "coco-gauff"
+    ]
+  }
+]

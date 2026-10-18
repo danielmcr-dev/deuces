@@ -1,0 +1,606 @@
+{
+  "tour": "WTA",
+  "rankingDate": "2026-10-12",
+  "entries": [
+    {
+      "rank": 1,
+      "previousRank": 1,
+      "playerId": "aryna-sabalenka",
+      "points": 10870
+    },
+    {
+      "rank": 2,
+      "previousRank": 2,
+      "playerId": "iga-swiatek",
+      "points": 8395
+    },
+    {
+      "rank": 3,
+      "previousRank": 3,
+      "playerId": "coco-gauff",
+      "points": 7290
+    },
+    {
+      "rank": 4,
+      "previousRank": 4,
+      "playerId": "amanda-anisimova",
+      "points": 6280
+    },
+    {
+      "rank": 5,
+      "previousRank": 5,
+      "playerId": "jessica-pegula",
+      "points": 5583
+    },
+    {
+      "rank": 6,
+      "previousRank": 6,
+      "playerId": "elena-rybakina",
+      "points": 5230
+    },
+    {
+      "rank": 7,
+      "previousRank": 7,
+      "playerId": "mirra-andreeva",
+      "points": 4810
+    },
+    {
+      "rank": 8,
+      "previousRank": 8,
+      "playerId": "madison-keys",
+      "points": 4320
+    },
+    {
+      "rank": 9,
+      "previousRank": 9,
+      "playerId": "jasmine-paolini",
+      "points": 4035
+    },
+    {
+      "rank": 10,
+      "previousRank": 10,
+      "playerId": "emma-navarro",
+      "points": 3720
+    },
+    {
+      "rank": 11,
+      "previousRank": 15,
+      "playerId": "victoria-mboko",
+      "points": 3305
+    },
+    {
+      "rank": 12,
+      "previousRank": 12,
+      "playerId": "karolina-muchova",
+      "points": 3080
+    },
+    {
+      "rank": 13,
+      "previousRank": 13,
+      "playerId": "ekaterina-alexandrova",
+      "points": 2890
+    },
+    {
+      "rank": 14,
+      "previousRank": 11,
+      "playerId": "elina-svitolina",
+      "points": 2740
+    },
+    {
+      "rank": 15,
+      "previousRank": 14,
+      "playerId": "belinda-bencic",
+      "points": 2585
+    },
+    {
+      "rank": 16,
+      "previousRank": 16,
+      "playerId": "linda-noskova",
+      "points": 2460
+    },
+    {
+      "rank": 17,
+      "previousRank": 17,
+      "playerId": "clara-tauson",
+      "points": 2355
+    },
+    {
+      "rank": 18,
+      "previousRank": 19,
+      "playerId": "diana-shnaider",
+      "points": 2250
+    },
+    {
+      "rank": 19,
+      "previousRank": 18,
+      "playerId": "jelena-ostapenko",
+      "points": 2165
+    },
+    {
+      "rank": 20,
+      "previousRank": 20,
+      "playerId": "zheng-qinwen",
+      "points": 2090
+    },
+    {
+      "rank": 21,
+      "previousRank": 27,
+      "playerId": "liudmila-samsonova",
+      "points": 2005
+    },
+    {
+      "rank": 22,
+      "previousRank": 21,
+      "playerId": "leylah-fernandez",
+      "points": 1940
+    },
+    {
+      "rank": 23,
+      "previousRank": 22,
+      "playerId": "naomi-osaka",
+      "points": 1875
+    },
+    {
+      "rank": 24,
+      "previousRank": 23,
+      "playerId": "marta-kostyuk",
+      "points": 1800
+    },
+    {
+      "rank": 25,
+      "previousRank": 25,
+      "playerId": "barbora-krejcikova",
+      "points": 1750
+    },
+    {
+      "rank": 26,
+      "previousRank": 24,
+      "playerId": "paula-badosa",
+      "points": 1715
+    },
+    {
+      "rank": 27,
+      "previousRank": 26,
+      "playerId": "emma-raducanu",
+      "points": 1660
+    },
+    {
+      "rank": 28,
+      "previousRank": 28,
+      "playerId": "elise-mertens",
+      "points": 1615
+    },
+    {
+      "rank": 29,
+      "previousRank": 29,
+      "playerId": "veronika-kudermetova",
+      "points": 1575
+    },
+    {
+      "rank": 30,
+      "previousRank": 30,
+      "playerId": "marketa-vondrousova",
+      "points": 1530
+    },
+    {
+      "rank": 31,
+      "previousRank": 31,
+      "playerId": "mccartney-kessler",
+      "points": 1495
+    },
+    {
+      "rank": 32,
+      "previousRank": 32,
+      "playerId": "iva-jovic",
+      "points": 1445
+    },
+    {
+      "rank": 33,
+      "previousRank": 33,
+      "playerId": "sofia-kenin",
+      "points": 1425
+    },
+    {
+      "rank": 34,
+      "previousRank": 35,
+      "playerId": "danielle-collins",
+      "points": 1380
+    },
+    {
+      "rank": 35,
+      "previousRank": 36,
+      "playerId": "dayana-yastremska",
+      "points": 1350
+    },
+    {
+      "rank": 36,
+      "previousRank": 34,
+      "playerId": "beatriz-haddad-maia",
+      "points": 1340
+    },
+    {
+      "rank": 37,
+      "previousRank": 38,
+      "playerId": "marie-bouzkova",
+      "points": 1310
+    },
+    {
+      "rank": 38,
+      "previousRank": 37,
+      "playerId": "magda-linette",
+      "points": 1280
+    },
+    {
+      "rank": 39,
+      "previousRank": 39,
+      "playerId": "anna-kalinskaya",
+      "points": 1245
+    },
+    {
+      "rank": 40,
+      "previousRank": 41,
+      "playerId": "daria-kasatkina",
+      "points": 1220
+    },
+    {
+      "rank": 41,
+      "previousRank": 40,
+      "playerId": "magdalena-frech",
+      "points": 1200
+    },
+    {
+      "rank": 42,
+      "previousRank": 44,
+      "playerId": "maria-sakkari",
+      "points": 1175
+    },
+    {
+      "rank": 43,
+      "previousRank": 42,
+      "playerId": "katerina-siniakova",
+      "points": 1170
+    },
+    {
+      "rank": 44,
+      "previousRank": 46,
+      "playerId": "sorana-cirstea",
+      "points": 1140
+    },
+    {
+      "rank": 45,
+      "previousRank": 43,
+      "playerId": "lois-boisson",
+      "points": 1130
+    },
+    {
+      "rank": 46,
+      "previousRank": 45,
+      "playerId": "alexandra-eala",
+      "points": 1095
+    },
+    {
+      "rank": 47,
+      "previousRank": 48,
+      "playerId": "ashlyn-krueger",
+      "points": 1085
+    },
+    {
+      "rank": 48,
+      "previousRank": 47,
+      "playerId": "peyton-stearns",
+      "points": 1055
+    },
+    {
+      "rank": 49,
+      "previousRank": 50,
+      "playerId": "maya-joint",
+      "points": 1040
+    },
+    {
+      "rank": 50,
+      "previousRank": 52,
+      "playerId": "wang-xinyu",
+      "points": 1025
+    },
+    {
+      "rank": 51,
+      "previousRank": 54,
+      "playerId": "cristina-bucsa",
+      "points": 1025
+    },
+    {
+      "rank": 52,
+      "previousRank": 51,
+      "playerId": "anastasia-potapova",
+      "points": 1005
+    },
+    {
+      "rank": 53,
+      "previousRank": 56,
+      "playerId": "kamilla-rakhimova",
+      "points": 980
+    },
+    {
+      "rank": 54,
+      "previousRank": 49,
+      "playerId": "anastasia-pavlyuchenkova",
+      "points": 985
+    },
+    {
+      "rank": 55,
+      "previousRank": 60,
+      "playerId": "victoria-azarenka",
+      "points": 950
+    },
+    {
+      "rank": 56,
+      "previousRank": 55,
+      "playerId": "yulia-putintseva",
+      "points": 960
+    },
+    {
+      "rank": 57,
+      "previousRank": 66,
+      "playerId": "ajla-tomljanovic",
+      "points": 940
+    },
+    {
+      "rank": 58,
+      "previousRank": 57,
+      "playerId": "alycia-parks",
+      "points": 920
+    },
+    {
+      "rank": 59,
+      "previousRank": 59,
+      "playerId": "renata-zarazua",
+      "points": 920
+    },
+    {
+      "rank": 60,
+      "previousRank": 58,
+      "playerId": "lucia-bronzetti",
+      "points": 900
+    },
+    {
+      "rank": 61,
+      "previousRank": 62,
+      "playerId": "elisabetta-cocciaretto",
+      "points": 895
+    },
+    {
+      "rank": 62,
+      "previousRank": 61,
+      "playerId": "rebecca-sramkova",
+      "points": 875
+    },
+    {
+      "rank": 63,
+      "previousRank": 64,
+      "playerId": "elena-gabriela-ruse",
+      "points": 855
+    },
+    {
+      "rank": 64,
+      "previousRank": 63,
+      "playerId": "sonay-kartal",
+      "points": 860
+    },
+    {
+      "rank": 65,
+      "previousRank": 65,
+      "playerId": "katie-boulter",
+      "points": 855
+    },
+    {
+      "rank": 66,
+      "previousRank": 67,
+      "playerId": "julia-grabher",
+      "points": 845
+    },
+    {
+      "rank": 67,
+      "previousRank": 53,
+      "playerId": "panna-udvardy",
+      "points": 830
+    },
+    {
+      "rank": 68,
+      "previousRank": 68,
+      "playerId": "lulu-sun",
+      "points": 810
+    },
+    {
+      "rank": 69,
+      "previousRank": 77,
+      "playerId": "moyuka-uchijima",
+      "points": 820
+    },
+    {
+      "rank": 70,
+      "previousRank": 93,
+      "playerId": "yuliia-starodubtseva",
+      "points": 810
+    },
+    {
+      "rank": 71,
+      "previousRank": 70,
+      "playerId": "polina-kudermetova",
+      "points": 785
+    },
+    {
+      "rank": 72,
+      "previousRank": 69,
+      "playerId": "tatjana-maria",
+      "points": 775
+    },
+    {
+      "rank": 73,
+      "previousRank": 74,
+      "playerId": "laura-siegemund",
+      "points": 785
+    },
+    {
+      "rank": 74,
+      "previousRank": 86,
+      "playerId": "eva-lys",
+      "points": 765
+    },
+    {
+      "rank": 75,
+      "previousRank": 72,
+      "playerId": "dalma-galfi",
+      "points": 765
+    },
+    {
+      "rank": 76,
+      "previousRank": 73,
+      "playerId": "varvara-gracheva",
+      "points": 750
+    },
+    {
+      "rank": 77,
+      "previousRank": 75,
+      "playerId": "diane-parry",
+      "points": 755
+    },
+    {
+      "rank": 78,
+      "previousRank": 79,
+      "playerId": "elsa-jacquemot",
+      "points": 725
+    },
+    {
+      "rank": 79,
+      "previousRank": 78,
+      "playerId": "antonia-ruzic",
+      "points": 730
+    },
+    {
+      "rank": 80,
+      "previousRank": 76,
+      "playerId": "donna-vekic",
+      "points": 725
+    },
+    {
+      "rank": 81,
+      "previousRank": 82,
+      "playerId": "anna-bondar",
+      "points": 705
+    },
+    {
+      "rank": 82,
+      "previousRank": 80,
+      "playerId": "karolina-pliskova",
+      "points": 710
+    },
+    {
+      "rank": 83,
+      "previousRank": 83,
+      "playerId": "tereza-valentova",
+      "points": 710
+    },
+    {
+      "rank": 84,
+      "previousRank": 87,
+      "playerId": "suzan-lamens",
+      "points": 690
+    },
+    {
+      "rank": 85,
+      "previousRank": 84,
+      "playerId": "kristina-mladenovic",
+      "points": 695
+    },
+    {
+      "rank": 86,
+      "previousRank": 71,
+      "playerId": "tamara-zidansek",
+      "points": 680
+    },
+    {
+      "rank": 87,
+      "previousRank": 90,
+      "playerId": "sara-errani",
+      "points": 670
+    },
+    {
+      "rank": 88,
+      "previousRank": 88,
+      "playerId": "hailey-baptiste",
+      "points": 665
+    },
+    {
+      "rank": 89,
+      "previousRank": 81,
+      "playerId": "ann-li",
+      "points": 670
+    },
+    {
+      "rank": 90,
+      "previousRank": 85,
+      "playerId": "taylor-townsend",
+      "points": 670
+    },
+    {
+      "rank": 91,
+      "previousRank": 91,
+      "playerId": "caty-mcnally",
+      "points": 660
+    },
+    {
+      "rank": 92,
+      "previousRank": 89,
+      "playerId": "bernarda-pera",
+      "points": 645
+    },
+    {
+      "rank": 93,
+      "previousRank": 94,
+      "playerId": "shelby-rogers",
+      "points": 655
+    },
+    {
+      "rank": 94,
+      "previousRank": 96,
+      "playerId": "katie-volynets",
+      "points": 635
+    },
+    {
+      "rank": 95,
+      "previousRank": 92,
+      "playerId": "jaqueline-cristian",
+      "points": 640
+    },
+    {
+      "rank": 96,
+      "previousRank": 95,
+      "playerId": "anhelina-kalinina",
+      "points": 625
+    },
+    {
+      "rank": 97,
+      "previousRank": 99,
+      "playerId": "viktoriya-tomova",
+      "points": 620
+    },
+    {
+      "rank": 98,
+      "previousRank": 98,
+      "playerId": "camila-osorio",
+      "points": 625
+    },
+    {
+      "rank": 99,
+      "previousRank": 100,
+      "playerId": "mayar-sherif",
+      "points": 615
+    },
+    {
+      "rank": 100,
+      "previousRank": 97,
+      "playerId": "arantxa-rus",
+      "points": 600
+    }
+  ]
+}
