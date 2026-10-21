@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import { Layout } from './components/layout/Layout';
+import { FEATURES } from './config/features';
 import HomePage from './pages/HomePage';
 import RankingsPage from './pages/RankingsPage';
 import CalendarPage from './pages/CalendarPage';
@@ -19,7 +20,7 @@ export default function App() {
         <Route path="rankings" element={<RankingsPage />} />
         <Route path="calendar" element={<CalendarPage />} />
         <Route path="news" element={<NewsPage />} />
-        <Route path="injuries" element={<InjuriesPage />} />
+        {FEATURES.injuries && <Route path="injuries" element={<InjuriesPage />} />}
         <Route path="my-players" element={<MyPlayersPage />} />
         <Route path="players/:id" element={<PlayerProfilePage />} />
         <Route path="*" element={<NotFoundPage />} />

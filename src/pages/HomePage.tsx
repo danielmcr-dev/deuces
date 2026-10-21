@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom';
 import type { Tour } from '@/types';
 import { useInjuredPlayers, useLiveMatches, useRankings, useTournaments } from '@/hooks/queries';
 import { MatchCard } from '@/components/MatchCard';
+import { PlayerAvatar } from '@/components/PlayerAvatar';
+import { FEATURES } from '@/config/features';
 import { useDocumentTitle } from '@/hooks/useDocumentTitle';
 import { NewsFeed } from '@/components/NewsFeed';
 import { TournamentCard } from '@/components/TournamentCard';
@@ -35,6 +37,7 @@ function TopFive({ tour }: { tour: Tour }) {
             <li key={e.playerId} className="flex items-center gap-2 rounded-lg px-1 py-1.5 text-sm hover:bg-navy-800">
               <span className="w-5 text-right font-display text-lg font-bold text-slate-300">{e.rank}</span>
               <MovementIndicator rank={e.rank} previousRank={e.previousRank} movement={e.movement} />
+              <PlayerAvatar name={e.player.name} tour={tour} size="xs" />
               <CountryFlag countryCode={e.player.countryCode} countryName={e.player.countryName} showCode={false} />
               <Link to={`/players/${e.player.id}`} className="min-w-0 flex-1 truncate font-medium text-slate-100 hover:text-ball">
                 {e.player.name}
@@ -150,7 +153,7 @@ export default function HomePage() {
         </div>
         <p className="text-sm font-semibold uppercase tracking-[0.2em] text-ball">Game, set, follow</p>
         <h1 className="heading-display mt-2 max-w-2xl text-5xl leading-[0.95] text-white sm:text-6xl">
-          Every ranking, injury and headline — all in one place.
+          {FEATURES.injuries ? 'Every ranking, injury and headline — all in one place.' : 'Every ranking, score and headline — all in one place.'}
         </h1>
         <div className="mt-6 flex flex-wrap gap-3">
           <Link to="/rankings" className="btn-primary">View rankings</Link>
@@ -171,7 +174,7 @@ export default function HomePage() {
           <OnCourtNow />
           <TopFive tour="ATP" />
           <TopFive tour="WTA" />
-          <InjurySnapshot />
+          {FEATURES.injuries && <InjurySnapshot />}
         </aside>
       </div>
     </>

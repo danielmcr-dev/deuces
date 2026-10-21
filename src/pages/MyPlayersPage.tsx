@@ -17,6 +17,7 @@ import { EmptyState } from '@/components/EmptyState';
 import { StarIcon } from '@/components/Icons';
 import { formatDate } from '@/utils/dates';
 import { formatNumber } from '@/utils/format';
+import { FEATURES } from '@/config/features';
 
 export default function MyPlayersPage() {
   useDocumentTitle('My Players');
@@ -31,7 +32,10 @@ export default function MyPlayersPage() {
 
   return (
     <>
-      <PageHeader title="My players" subtitle="Rankings, fitness, schedules and news for the players you follow. Saved on this device." />
+      <PageHeader
+        title="My players"
+        subtitle={`Rankings, ${FEATURES.injuries ? 'fitness, ' : ''}schedules and news for the players you follow. Saved on this device.`}
+      />
 
       {ids.length === 0 ? (
         <EmptyState title="You're not following anyone yet">

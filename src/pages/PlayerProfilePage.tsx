@@ -2,6 +2,7 @@ import { Link, useParams } from 'react-router-dom';
 import { usePlayer, useRankLookup } from '@/hooks/queries';
 import { useDocumentTitle } from '@/hooks/useDocumentTitle';
 import { PlayerAvatar } from '@/components/PlayerAvatar';
+import { PhotoCredit } from '@/components/PhotoCredit';
 import { StatusBadge } from '@/components/StatusBadge';
 import { FollowButton } from '@/components/FollowButton';
 import { CountryFlag } from '@/components/CountryFlag';
@@ -84,7 +85,12 @@ export default function PlayerProfilePage() {
         )}
       >
         <div className="flex flex-col items-center gap-6 text-center sm:flex-row sm:text-left">
-          <PlayerAvatar name={player.name} tour={player.tour} size="lg" />
+          <div className="flex flex-col items-center gap-2">
+            <PlayerAvatar name={player.name} tour={player.tour} size="lg" describe />
+            <div className="max-w-[12rem] text-center">
+              <PhotoCredit name={player.name} />
+            </div>
+          </div>
           <div className="min-w-0 flex-1">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-ball">{player.tour}</p>
             <h1 id="player-name" className="heading-display text-4xl leading-none text-white sm:text-6xl">

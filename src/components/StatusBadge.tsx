@@ -1,5 +1,6 @@
 import type { InjuryStatus } from '@/types';
 import { cx } from '@/utils/format';
+import { FEATURES } from '@/config/features';
 
 const STYLES: Record<InjuryStatus, string> = {
   Active: 'border-emerald-400/40 bg-emerald-400/10 text-emerald-300',
@@ -17,6 +18,7 @@ interface Props {
 }
 
 export function StatusBadge({ status, showActive = false, size = 'sm', className }: Props) {
+  if (!FEATURES.injuries) return null;
   if (status === 'Active' && !showActive) return null;
   return (
     <span

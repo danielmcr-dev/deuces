@@ -14,6 +14,7 @@ import { SearchIcon } from '@/components/Icons';
 import { formatDate } from '@/utils/dates';
 import { expireLiveCache, isLive } from '@/services';
 import { StaleNotice } from '@/components/DataNotice';
+import { FEATURES } from '@/config/features';
 
 const TOURS = ['ATP', 'WTA'] as const;
 
@@ -85,10 +86,12 @@ export default function RankingsPage() {
               ))}
             </select>
           </label>
-          <label className="inline-flex cursor-pointer items-center gap-2 text-sm text-slate-200">
-            <input type="checkbox" checked={injuredOnly} onChange={(e) => setInjuredOnly(e.target.checked)} className="h-4 w-4 accent-[#d4f53c]" />
-            Injured / returning only
-          </label>
+          {FEATURES.injuries && (
+            <label className="inline-flex cursor-pointer items-center gap-2 text-sm text-slate-200">
+              <input type="checkbox" checked={injuredOnly} onChange={(e) => setInjuredOnly(e.target.checked)} className="h-4 w-4 accent-[#d4f53c]" />
+              Injured / returning only
+            </label>
+          )}
         </form>
       </div>
 
@@ -109,13 +112,13 @@ export default function RankingsPage() {
               <table className="w-full table-fixed">
                 <caption className="sr-only">{tour} singles rankings</caption>
                 <colgroup>
-                  <col className="w-12 sm:w-14" />
-                  <col className="w-12" />
+                  <col className="w-10 sm:w-14" />
+                  <col className="w-10 sm:w-12" />
                   <col />
                   <col className="hidden w-16 md:table-column" />
                   <col className="hidden w-14 sm:table-column" />
-                  <col className="w-20 sm:w-24" />
-                  <col className="w-12 sm:w-14" />
+                  <col className="w-[4.5rem] sm:w-24" />
+                  <col className="w-11 sm:w-14" />
                 </colgroup>
                 <thead className="border-b border-navy-700 bg-navy-800 text-xs uppercase tracking-wide text-slate-300">
                   <tr>

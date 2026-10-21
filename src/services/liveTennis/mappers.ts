@@ -3,6 +3,7 @@ import { countryFromIoc } from '@/utils/countries';
 import { slugify } from '@/utils/format';
 import type { LtMatch, LtPlayer } from './types';
 import mockPlayersJson from '@/mocks/players.json';
+import { FEATURES } from '@/config/features';
 
 const mockPlayers = mockPlayersJson as Player[];
 
@@ -43,7 +44,7 @@ export function toPlayer(raw: LtPlayer, tour: Tour): Player {
   const num = (v: string | undefined) => (v === undefined || v === '' ? null : Number(v));
   const careerTitles = seasons.length ? seasons.reduce((sum, s) => sum + (num(s.titles) ?? 0), 0) : null;
   const backhand = raw.backhand ?? meta?.backhand ?? null;
-  const overlay = injuriesBySlug.get(slugify(raw.name));
+  const overlay = FEATURES.injuries ? injuriesBySlug.get(slugify(raw.name)) : undefined;
 
   return {
     id: String(raw.id),

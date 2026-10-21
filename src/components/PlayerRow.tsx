@@ -6,6 +6,7 @@ import { CountryFlag } from './CountryFlag';
 import { FollowButton } from './FollowButton';
 import { MovementIndicator } from './MovementIndicator';
 import { StatusBadge } from './StatusBadge';
+import { PlayerAvatar } from './PlayerAvatar';
 
 /** One row of a rankings table. Render inside <tbody>. */
 export function PlayerRow({ entry }: { entry: RankedPlayer }) {
@@ -18,10 +19,17 @@ export function PlayerRow({ entry }: { entry: RankedPlayer }) {
       </td>
       <th scope="row" className="py-2 pl-1 pr-2 text-left font-normal">
         <div className="flex min-w-0 items-center gap-2">
-          <CountryFlag countryCode={player.countryCode} countryName={player.countryName} ioc={player.ioc} showCode={false} />
+          <PlayerAvatar name={player.name} tour={player.tour} size="xs" />
+          <span className="hidden sm:inline-flex">
+            <CountryFlag countryCode={player.countryCode} countryName={player.countryName} ioc={player.ioc} showCode={false} />
+          </span>
           <div className="flex min-w-0 flex-col items-start gap-0.5 sm:flex-row sm:items-center sm:gap-2">
             <Link to={`/players/${player.id}`} className="max-w-full truncate font-semibold text-slate-50 hover:text-ball hover:underline">
-              {player.name}
+              {/* Short name on phones ("J. Sinner") so it fits beside the photo. */}
+              <span className="sm:hidden" aria-hidden="true">
+                {player.firstName ? `${player.firstName[0]}. ${player.lastName}` : player.name}
+              </span>
+              <span className="sr-only sm:not-sr-only">{player.name}</span>
             </Link>
             <StatusBadge status={player.status} />
           </div>

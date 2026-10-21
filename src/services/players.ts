@@ -1,12 +1,16 @@
 import type { Player, Tour } from '@/types';
 import playersJson from '@/mocks/players.json';
 import { isLive } from './config';
+import { FEATURES } from '@/config/features';
 import { ApiError, liveGet, mockDelay } from './apiClient';
 import { getRoster } from './liveTennis/roster';
 import { toPlayer, tourOf } from './liveTennis/mappers';
 import type { LtPlayer } from './liveTennis/types';
 
-const mockPlayers = playersJson as Player[];
+// With the injuries feature off, everyone is treated as Active.
+const mockPlayers = (playersJson as Player[]).map((p) =>
+  FEATURES.injuries ? p : { ...p, status: 'Active' as const, injury: null },
+);
 const ONE_DAY = 24 * 60 * 60 * 1000;
 
 /** Top-100 players for a tour (or both tours if omitted). */

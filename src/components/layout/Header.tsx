@@ -2,9 +2,10 @@ import { useEffect, useState } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { useFollowedPlayers } from '@/hooks/useFollowedPlayers';
 import { cx } from '@/utils/format';
+import { FEATURES } from '@/config/features';
 import { BallIcon, CloseIcon, MenuIcon } from '../Icons';
 
-const NAV = [
+const ALL_NAV = [
   { to: '/', label: 'Home', end: true },
   { to: '/live', label: 'Live' },
   { to: '/rankings', label: 'Rankings' },
@@ -13,6 +14,7 @@ const NAV = [
   { to: '/injuries', label: 'Injuries' },
   { to: '/my-players', label: 'My Players' },
 ];
+const NAV = ALL_NAV.filter((item) => item.to !== '/injuries' || FEATURES.injuries);
 
 export function Header() {
   const [open, setOpen] = useState(false);

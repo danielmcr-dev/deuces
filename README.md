@@ -37,7 +37,7 @@ Other scripts:
 | Rankings | `/rankings` (`?tour=WTA`) | ATP/WTA tabs; rank, flag, age, points and weekly movement; search by name, filter by country or injured; "last updated" time; auto-refreshes every 10 min |
 | Calendar | `/calendar` | Month and list views, colour-coded by surface and labelled by tier; filter by tour, surface and tier; live events highlighted; detail panel with 10 years of champions. Filters live in the URL, so views can be shared |
 | News | `/news` | Top Stories plus the full feed with ATP/WTA filter. Stories open in a new tab |
-| Injuries | `/injuries` | Every Injured or Returning player, with injury, date reported and expected return |
+| Injuries | `/injuries` | Every Injured or Returning player, with injury, date reported and expected return. **Off by default**; see [Feature flags](#feature-flags) |
 | My Players | `/my-players` | Each followed player's ranking, injury status, upcoming tournaments and related news |
 | Player profile | `/players/:id` | Photo placeholder, country, age, height, playing hand, current and career-high rank, titles this season, next matches, injury details, follow button. Live data adds season record and Elo |
 
@@ -118,7 +118,7 @@ Deuces is wired to [Live Tennis API](https://livetennisapi.com)'s **free plan**:
 | Upcoming matches | `GET /matches?status=upcoming&tour=…` | 1 per tour, cached 30 min |
 | Next matches on profiles / My Players | picked from the cached match lists | 0 |
 | News, season calendar, past champions | sample data (`src/mocks/`) | 0 |
-| Injuries | curated sample list, matched to real players by name | 0 |
+| Injuries (when enabled) | curated sample list, matched to real players by name | 0 |
 
 The free plan has no "previous rank" figure, only up/down/same, so live rankings show movement arrows without the number of places. The API's season stats can lag a season behind, so profiles label titles and the win–loss record with the season they cover. Rankings history, injury reports and completed results need paid plans.
 
@@ -149,8 +149,32 @@ src/services/
 
 To add free news later, fetch an RSS feed or a free news API (NewsData.io, The Guardian) in `news.ts` and map it to `NewsItem`.
 
+## Feature flags
+
+Set these in `.env` and restart `npm run dev`. They live in `src/config/features.ts`.
+
+| Flag | Default | What it controls |
+| --- | --- | --- |
+| `VITE_FEATURE_INJURIES` | `false` | The Injuries page and nav link, injury badges, the "injured only" rankings filter, the home-page injury snapshot and injury details on profiles. Off by default because the injury data is sample data. |
+| `VITE_FEATURE_PLAYER_PHOTOS` | `true` | Real player photos from Wikimedia Commons |
+
+## Player photos
+
+Photos come from [Wikimedia Commons](https://commons.wikimedia.org), which only hosts **freely licensed** images: Creative Commons, public domain and similar. They're free to use, but most licences require crediting the photographer. Deuces does that:
+
+- **Profile page:** the photo is credited with author, licence and a link to the Commons file page, where the full licence terms are.
+- **Small photos** (rankings, home, My Players): each has a tooltip linking to its Commons page.
+
+How a photo is found (`src/services/photos.ts`, free, no API key):
+
+1. One [Wikidata](https://www.wikidata.org) query matches a batch of names to people listed as **tennis players**, using their English name or alias.
+2. Names that don't match exactly (usually accents: "Jakub Mensik" vs "Jakub Menšík") go through Wikidata's name search, still limited to tennis players.
+3. When two tennis players share a name (e.g. Alexander Zverev and his father), the current player with a photo wins.
+4. The image comes straight from Wikimedia's CDN (`upload.wikimedia.org`), with a fallback link and then initials if it doesn't load.
+
+Lookups are batched (a 100-row rankings page needs about 2 queries) and cached in the browser for 30 days, or 7 days for "no photo found". About 95% of current top-100 players have a photo; the rest show initials.
+
 ## Customising
 
 - **Colours** live in `tailwind.config.js` (`navy`, `ball`, `surface`). Shared component classes are in `src/index.css`.
-- **Player photos:** `PlayerAvatar` renders initials. Add a `photoUrl` to `Player` and render an `<img>` there.
 - **Followed players** are stored under the localStorage key `deuces:followed-players`.
