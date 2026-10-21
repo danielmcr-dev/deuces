@@ -2,8 +2,8 @@ import { useNews } from '@/hooks/queries';
 import { NewsCard } from './NewsCard';
 import { LoadingRegion, Skeleton } from './Skeleton';
 
-export function RelatedNews({ playerIds, limit = 3, emptyText = 'No recent news.' }: { playerIds: string[]; limit?: number; emptyText?: string }) {
-  const { data, isLoading, isError } = useNews({ playerIds, limit }, playerIds.length > 0);
+export function RelatedNews({ playerNames, limit = 3, emptyText = 'No recent news.' }: { playerNames: string[]; limit?: number; emptyText?: string }) {
+  const { data, isLoading, isError } = useNews({ playerNames, limit }, playerNames.length > 0);
   if (isLoading) {
     return (
       <LoadingRegion label="Loading news…" className="space-y-2">

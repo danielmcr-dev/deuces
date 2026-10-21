@@ -1,18 +1,14 @@
 import type { Player, Tour } from '@/types';
-import { isLive } from './config';
-import { apiGet } from './apiClient';
 import { getPlayers } from './players';
 
 /**
  * Players who are currently Injured or Returning.
- * In mock mode this is derived from the player list; a real provider
- * usually exposes a dedicated injuries endpoint.
+ *
+ * Injury data isn't on Live Tennis API's free plan, so status comes from the
+ * curated list in src/mocks/players.json in both modes. In live mode that list
+ * is matched to real players by name (see liveTennis/mappers.ts).
  */
 export async function getInjuredPlayers(tour?: Tour): Promise<Player[]> {
-  if (isLive()) {
-    // TODO(live): map your provider's injury feed to `Player[]` (with `status` and `injury` set).
-    return apiGet<Player[]>('/injuries', tour ? { tour } : {});
-  }
   const players = await getPlayers(tour);
   return players
     .filter((p) => p.status !== 'Active')

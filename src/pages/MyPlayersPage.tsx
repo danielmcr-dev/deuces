@@ -10,6 +10,7 @@ import { CountryFlag } from '@/components/CountryFlag';
 import { MovementIndicator } from '@/components/MovementIndicator';
 import { UpcomingTournaments } from '@/components/UpcomingTournaments';
 import { RelatedNews } from '@/components/RelatedNews';
+import { NextMatches } from '@/components/NextMatches';
 import { CardListSkeleton } from '@/components/Skeleton';
 import { ErrorMessage } from '@/components/ErrorMessage';
 import { EmptyState } from '@/components/EmptyState';
@@ -19,7 +20,7 @@ import { formatNumber } from '@/utils/format';
 
 export default function MyPlayersPage() {
   useDocumentTitle('My Players');
-  const { ids } = useFollowedPlayers();
+  const { ids, unfollow } = useFollowedPlayers();
   const { data, isLoading, isError, error, refetch } = usePlayersByIds(ids);
   const ranks = useRankLookup();
 
@@ -44,6 +45,15 @@ export default function MyPlayersPage() {
       ) : isError ? (
         <ErrorMessage title="We couldn't load your players" error={error} onRetry={() => refetch()} />
       ) : (
+        <>
+        {data && players.length < ids.length && (
+          <p role="status" className="mb-4 flex flex-wrap items-center gap-3 rounded-lg border border-amber-300/30 bg-amber-400/10 px-3 py-2 text-sm text-amber-100">
+            {ids.length - players.length} followed player{ids.length - players.length === 1 ? '' : 's'} couldn't be found — probably saved while using demo data.
+            <button type="button" className="font-semibold underline hover:text-white" onClick={() => ids.filter((id) => !players.some((p) => p.id === id)).forEach(unfollow)}>
+              Remove them
+            </button>
+          </p>
+        )}
         <ul className="grid gap-6">
           {players.map((p) => {
             const r = ranks.map.get(p.id);
@@ -64,9 +74,11 @@ export default function MyPlayersPage() {
                         {r ? (
                           <span className="inline-flex items-center">
                             <span className="font-semibold text-slate-100">{p.tour} No. {r.rank}</span>
-                            <MovementIndicator rank={r.rank} previousRank={r.previousRank} />
+                            <MovementIndicator rank={r.rank} previousRank={r.previousRank} movement={r.movement} />
                             <span>{formatNumber(r.points)} pts</span>
                           </span>
+                        ) : p.ranking ? (
+                          <span className="font-semibold text-slate-100">{p.tour} No. {p.ranking.rank}</span>
                         ) : (
                           <span>{p.tour}</span>
                         )}
@@ -83,12 +95,14 @@ export default function MyPlayersPage() {
                   </div>
                   <div className="mt-5 grid gap-6 lg:grid-cols-2">
                     <section aria-label={`Upcoming tournaments for ${p.name}`}>
-                      <h3 className="mb-2 text-xs font-bold uppercase tracking-wide text-slate-400">Upcoming tournaments</h3>
-                      <UpcomingTournaments player={p} rank={r?.rank} />
+                      <h3 className="mb-2 text-xs font-bold uppercase tracking-wide text-slate-400">Next matches</h3>
+                      <NextMatches playerId={p.id} />
+                      <h3 className="mb-2 mt-4 text-xs font-bold uppercase tracking-wide text-slate-400">Upcoming tournaments</h3>
+                      <UpcomingTournaments player={p} rank={r?.rank ?? p.ranking?.rank} />
                     </section>
                     <section aria-label={`News about ${p.name}`}>
                       <h3 className="mb-2 text-xs font-bold uppercase tracking-wide text-slate-400">Related news</h3>
-                      <RelatedNews playerIds={[p.id]} limit={2} />
+                      <RelatedNews playerNames={[p.name]} limit={2} />
                     </section>
                   </div>
                 </article>
@@ -96,6 +110,7 @@ export default function MyPlayersPage() {
             );
           })}
         </ul>
+        </>
       )}
     </>
   );

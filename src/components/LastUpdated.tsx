@@ -6,15 +6,16 @@ interface Props {
   updatedAt: number | undefined;
   isFetching: boolean;
   onRefresh: () => void;
+  intervalLabel?: string;
 }
 
-export function LastUpdated({ updatedAt, isFetching, onRefresh }: Props) {
+export function LastUpdated({ updatedAt, isFetching, onRefresh, intervalLabel = 'auto-refreshes every 10 min' }: Props) {
   return (
     <div className="flex items-center gap-2 text-xs text-slate-300">
       <span aria-live="polite">
         {isFetching ? 'Updating…' : updatedAt ? <>Last updated <time dateTime={new Date(updatedAt).toISOString()}>{formatTime(new Date(updatedAt).toISOString())}</time></> : null}
       </span>
-      <span className="hidden text-slate-400 sm:inline">· auto-refreshes every 10 min</span>
+      <span className="hidden text-slate-400 sm:inline">· {intervalLabel}</span>
       <button
         type="button"
         onClick={onRefresh}

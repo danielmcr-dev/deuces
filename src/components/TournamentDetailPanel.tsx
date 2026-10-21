@@ -5,6 +5,9 @@ import { flagEmoji, formatMoney } from '@/utils/format';
 import { CalendarIcon, CloseIcon, MapPinIcon, TrophyIcon } from './Icons';
 import { SurfaceBadge, TierBadge } from './SurfaceBadge';
 import { LiveBadge } from './TournamentCard';
+import { MatchCard } from './MatchCard';
+import { useLiveMatches, useUpcomingMatches } from '@/hooks/queries';
+import { matchesTournament } from '@/services';
 
 interface Props {
   tournament: Tournament | null;
@@ -126,6 +129,8 @@ export function TournamentDetailPanel({ tournament: t, onClose }: Props) {
             </div>
           </dl>
 
+          {live && <EventMatches tournament={t} />}
+
           <section aria-labelledby={`${titleId}-champs`}>
             <h3 id={`${titleId}-champs`} className="mb-3 flex items-center gap-2 text-sm font-bold uppercase tracking-wide text-slate-200">
               <TrophyIcon className="text-ball" width={18} height={18} /> Singles champions, last 10 years
@@ -160,5 +165,32 @@ export function TournamentDetailPanel({ tournament: t, onClose }: Props) {
         </div>
       </div>
     </div>
+  );
+}
+
+/** Live and upcoming matches at an in-progress event (from the cached match lists). */
+function EventMatches({ tournament: t }: { tournament: Tournament }) {
+  const live = useLiveMatches();
+  const atp = useUpcomingMatches('ATP', t.tours.includes('ATP'));
+  const wta = useUpcomingMatches('WTA', t.tours.includes('WTA'));
+  const matches = [...(live.data?.matches ?? []), ...(atp.data?.matches ?? []), ...(wta.data?.matches ?? [])]
+    .filter((m) => (m.tour === 'ATP' || m.tour === 'WTA') && t.tours.includes(m.tour) && matchesTournament(m, t))
+    .slice(0, 6);
+  if (live.isLoading) return null;
+  return (
+    <section aria-label="Matches at this tournament">
+      <h3 className="mb-3 text-sm font-bold uppercase tracking-wide text-slate-200">On court and up next</h3>
+      {matches.length === 0 ? (
+        <p className="text-sm text-slate-300">No matches listed right now.</p>
+      ) : (
+        <ul className="space-y-2">
+          {matches.map((m) => (
+            <li key={m.id}>
+              <MatchCard match={m} />
+            </li>
+          ))}
+        </ul>
+      )}
+    </section>
   );
 }

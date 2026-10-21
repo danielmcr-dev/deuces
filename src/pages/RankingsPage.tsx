@@ -12,6 +12,8 @@ import { EmptyState } from '@/components/EmptyState';
 import { LastUpdated } from '@/components/LastUpdated';
 import { SearchIcon } from '@/components/Icons';
 import { formatDate } from '@/utils/dates';
+import { expireLiveCache, isLive } from '@/services';
+import { StaleNotice } from '@/components/DataNotice';
 
 const TOURS = ['ATP', 'WTA'] as const;
 
@@ -23,7 +25,11 @@ export default function RankingsPage() {
   const [injuredOnly, setInjuredOnly] = useState(false);
   useDocumentTitle(`${tour} Rankings`);
 
-  const { data, isLoading, isError, error, refetch, isFetching, dataUpdatedAt } = useRankings(tour);
+  const { data, isLoading, isError, error, refetch, isFetching } = useRankings(tour);
+  const refresh = () => {
+    expireLiveCache('/players?', 5 * 60 * 1000);
+    refetch();
+  };
 
   const countries = useMemo(() => {
     const m = new Map<string, string>();
@@ -51,8 +57,13 @@ export default function RankingsPage() {
     <>
       <PageHeader
         title="Live rankings"
-        subtitle={data ? <>Singles top 100 · rankings as of {formatDate(data.rankingDate)}</> : 'Singles top 100'}
-        actions={<LastUpdated updatedAt={dataUpdatedAt || undefined} isFetching={isFetching} onRefresh={() => refetch()} />}
+        subtitle={
+          <>
+            Singles top 100{data && <> · rankings as of {formatDate(data.rankingDate)}</>}
+            {isLive() ? ' · live data from Live Tennis API' : ' · sample data'}
+          </>
+        }
+        actions={<LastUpdated updatedAt={data ? Date.parse(data.fetchedAt) : undefined} isFetching={isFetching} onRefresh={refresh} />}
       />
 
       <div className="mb-4 flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
@@ -82,6 +93,7 @@ export default function RankingsPage() {
       </div>
 
       <div id="rankings-panel" role="tabpanel" aria-labelledby={`rankings-tab-${tour}`}>
+        <StaleNotice stale={data?.stale} />
         {isLoading ? (
           <RankingTableSkeleton />
         ) : isError ? (

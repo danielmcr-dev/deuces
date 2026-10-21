@@ -14,6 +14,7 @@ import { InjuryDetails } from '@/components/InjuryDetails';
 import { CardListSkeleton } from '@/components/Skeleton';
 import { ErrorMessage } from '@/components/ErrorMessage';
 import { EmptyState } from '@/components/EmptyState';
+import { isLive } from '@/services';
 
 type Filter = 'All' | Tour;
 const STATUSES = ['Injured', 'Returning'] as const;
@@ -33,7 +34,12 @@ export default function InjuriesPage() {
     <>
       <PageHeader
         title="Injury report"
-        subtitle={data ? `${injuredCount} injured · ${returningCount} returning from injury` : 'Who’s sidelined and who’s coming back.'}
+        subtitle={
+          <>
+            {data ? `${injuredCount} injured · ${returningCount} returning from injury` : 'Who’s sidelined and who’s coming back.'}
+            {isLive() && <span className="block text-xs text-amber-200">Injury details are sample data — Live Tennis API's free plan has no injury feed.</span>}
+          </>
+        }
       />
       <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <TourTabs label="Tour" idPrefix="injuries" value={tour} options={['All', 'ATP', 'WTA'] as const} onChange={setTour} labels={{ All: 'Both tours' }} />

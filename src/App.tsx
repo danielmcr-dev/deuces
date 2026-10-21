@@ -8,12 +8,14 @@ import InjuriesPage from './pages/InjuriesPage';
 import MyPlayersPage from './pages/MyPlayersPage';
 import PlayerProfilePage from './pages/PlayerProfilePage';
 import NotFoundPage from './pages/NotFoundPage';
+import LiveScoresPage from './pages/LiveScoresPage';
 
 export default function App() {
   return (
     <Routes>
       <Route element={<Layout />}>
         <Route index element={<HomePage />} />
+        <Route path="live" element={<LiveScoresPage />} />
         <Route path="rankings" element={<RankingsPage />} />
         <Route path="calendar" element={<CalendarPage />} />
         <Route path="news" element={<NewsPage />} />

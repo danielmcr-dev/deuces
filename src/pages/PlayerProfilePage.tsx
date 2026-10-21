@@ -9,6 +9,7 @@ import { MovementIndicator } from '@/components/MovementIndicator';
 import { InjuryDetails } from '@/components/InjuryDetails';
 import { UpcomingTournaments } from '@/components/UpcomingTournaments';
 import { RelatedNews } from '@/components/RelatedNews';
+import { NextMatches } from '@/components/NextMatches';
 import { ErrorMessage } from '@/components/ErrorMessage';
 import { LoadingRegion, Skeleton } from '@/components/Skeleton';
 import { ChevronLeftIcon } from '@/components/Icons';
@@ -68,7 +69,9 @@ export default function PlayerProfilePage() {
   }
 
   const r = ranks.map.get(player.id);
-  const hand = player.plays === 'Left' ? 'Left-handed' : 'Right-handed';
+  const rank = r?.rank ?? player.ranking?.rank ?? null;
+  const points = r?.points ?? player.ranking?.points ?? null;
+  const hand = player.plays === 'Left' ? 'Left-handed' : player.plays === 'Right' ? 'Right-handed' : '—';
 
   return (
     <>
@@ -114,26 +117,52 @@ export default function PlayerProfilePage() {
         <dl className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
           <Stat
             label="Current rank"
-            value={r ? <>#{r.rank}</> : '—'}
-            sub={r ? <span className="inline-flex items-center">{formatNumber(r.points)} pts <MovementIndicator rank={r.rank} previousRank={r.previousRank} /></span> : ranks.isLoading ? 'Loading…' : 'Unranked'}
+            value={rank ? <>#{rank}</> : '—'}
+            sub={
+              rank ? (
+                <span className="inline-flex items-center">
+                  {points !== null && <>{formatNumber(points)} pts</>}
+                  <MovementIndicator rank={rank} previousRank={r?.previousRank ?? null} movement={r?.movement ?? player.ranking?.movement} />
+                </span>
+              ) : ranks.isLoading ? 'Loading…' : 'Unranked'
+            }
           />
-          <Stat label="Career high" value={`#${player.careerHighRank}`} sub={formatDate(player.careerHighDate, { month: 'short', year: 'numeric' })} />
-          <Stat label="Titles in 2026" value={player.titlesThisSeason} sub={`${player.careerTitles} career`} />
-          <Stat label="Age" value={ageFromBirthDate(player.birthDate)} sub={`Born ${formatDate(player.birthDate)}`} />
-          <Stat label="Height" value={`${player.heightCm} cm`} sub={`${Math.floor(player.heightCm / 30.48)}′ ${Math.round((player.heightCm / 2.54) % 12)}″`} />
-          <Stat label="Plays" value={hand} sub={`${player.backhand} backhand`} />
-          <Stat label="Turned pro" value={player.turnedPro} />
+          <Stat
+            label="Career high"
+            value={player.careerHighRank ? `#${player.careerHighRank}` : '—'}
+            sub={player.careerHighDate ? formatDate(player.careerHighDate, { month: 'short', year: 'numeric' }) : undefined}
+          />
+          <Stat
+            label={`Titles in ${player.statsSeason ?? new Date().getFullYear()}`}
+            value={player.titlesThisSeason ?? '—'}
+            sub={player.careerTitles !== null ? `${player.careerTitles} career${player.statsSeason ? ' (all levels)' : ''}` : undefined}
+          />
+          <Stat label="Age" value={player.birthDate ? ageFromBirthDate(player.birthDate) : '—'} sub={player.birthDate ? `Born ${formatDate(player.birthDate)}` : undefined} />
+          <Stat
+            label="Height"
+            value={player.heightCm ? `${player.heightCm} cm` : '—'}
+            sub={player.heightCm ? `${Math.floor(player.heightCm / 30.48)}′ ${Math.round((player.heightCm / 2.54) % 12)}″` : undefined}
+          />
+          <Stat label="Plays" value={hand} sub={player.backhand ? `${player.backhand} backhand` : undefined} />
+          {player.seasonRecord && (
+            <Stat label={`${player.statsSeason ?? 'Season'} record`} value={`${player.seasonRecord.won}–${player.seasonRecord.lost}`} sub="Singles wins–losses" />
+          )}
+          {player.elo && <Stat label="Elo rating" value={Math.round(player.elo)} sub="Overall" />}
+          {player.turnedPro && <Stat label="Turned pro" value={player.turnedPro} />}
         </dl>
       </section>
 
       <div className="mt-8 grid gap-8 lg:grid-cols-2">
         <section aria-labelledby="schedule-heading">
-          <h2 id="schedule-heading" className="heading-display mb-3 text-2xl text-slate-50">Upcoming tournaments</h2>
-          <UpcomingTournaments player={player} rank={r?.rank} limit={4} />
+          <h2 id="schedule-heading" className="heading-display mb-3 text-2xl text-slate-50">Schedule</h2>
+          <h3 className="mb-2 text-xs font-bold uppercase tracking-wide text-slate-400">Next matches</h3>
+          <NextMatches playerId={player.id} />
+          <h3 className="mb-2 mt-5 text-xs font-bold uppercase tracking-wide text-slate-400">Likely upcoming events</h3>
+          <UpcomingTournaments player={player} rank={rank ?? undefined} limit={4} />
         </section>
         <section aria-labelledby="news-heading">
           <h2 id="news-heading" className="heading-display mb-3 text-2xl text-slate-50">Related news</h2>
-          <RelatedNews playerIds={[player.id]} emptyText={`No recent news about ${player.name}.`} />
+          <RelatedNews playerNames={[player.name]} emptyText={`No recent news about ${player.name}.`} />
         </section>
       </div>
     </>

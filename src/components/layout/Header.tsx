@@ -6,6 +6,7 @@ import { BallIcon, CloseIcon, MenuIcon } from '../Icons';
 
 const NAV = [
   { to: '/', label: 'Home', end: true },
+  { to: '/live', label: 'Live' },
   { to: '/rankings', label: 'Rankings' },
   { to: '/calendar', label: 'Calendar' },
   { to: '/news', label: 'News' },

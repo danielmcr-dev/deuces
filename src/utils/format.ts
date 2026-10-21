@@ -20,3 +20,13 @@ export function initials(name: string): string {
 export function cx(...classes: Array<string | false | null | undefined>): string {
   return classes.filter(Boolean).join(' ');
 }
+
+/** URL-safe slug from a name ("Félix Auger-Aliassime" -> "felix-auger-aliassime"). */
+export function slugify(s: string): string {
+  return s
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/(^-|-$)/g, '');
+}

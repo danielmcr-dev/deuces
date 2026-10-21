@@ -1,5 +1,5 @@
 import { keepPreviousData, useQuery } from '@tanstack/react-query';
-import type { Tour } from '@/types';
+import type { Movement, Tour } from '@/types';
 import {
   getInjuredPlayers,
   getNews,
@@ -8,7 +8,10 @@ import {
   getPlayersByIds,
   getRankingsWithPlayers,
   getTournaments,
+  getLiveMatches,
+  getUpcomingMatches,
   type NewsQuery,
+  type ScoresTour,
 } from '@/services';
 
 const TEN_MINUTES = 10 * 60 * 1000;
@@ -21,7 +24,11 @@ export const queryKeys = {
   injuries: (tour?: Tour) => ['injuries', tour ?? 'all'] as const,
   news: (q: NewsQuery) => ['news', q] as const,
   tournaments: (tour?: Tour) => ['tournaments', tour ?? 'all'] as const,
+  liveMatches: ['matches', 'live'] as const,
+  upcomingMatches: (tour: ScoresTour) => ['matches', 'upcoming', tour] as const,
 };
+
+const FIVE_MINUTES = 5 * 60 * 1000;
 
 /** Rankings auto-refresh every 10 minutes (and when the tab regains focus). */
 export function useRankings(tour: Tour) {
@@ -62,9 +69,30 @@ export function useTournaments(tour?: Tour) {
 export function useRankLookup() {
   const atp = useRankings('ATP');
   const wta = useRankings('WTA');
-  const map = new Map<string, { rank: number; previousRank: number; points: number }>();
+  const map = new Map<string, { rank: number; previousRank: number | null; movement?: Movement; points: number }>();
   for (const e of [...(atp.data?.entries ?? []), ...(wta.data?.entries ?? [])]) {
-    map.set(e.playerId, { rank: e.rank, previousRank: e.previousRank, points: e.points });
+    map.set(e.playerId, { rank: e.rank, previousRank: e.previousRank, movement: e.movement, points: e.points });
   }
   return { map, isLoading: atp.isLoading || wta.isLoading };
+}
+
+/** Live scores. Polls every 5 minutes while the page is visible (the API layer caches for 4). */
+export function useLiveMatches(enabled = true) {
+  return useQuery({
+    queryKey: queryKeys.liveMatches,
+    queryFn: getLiveMatches,
+    refetchInterval: FIVE_MINUTES,
+    refetchIntervalInBackground: false,
+    staleTime: 60 * 1000,
+    enabled,
+  });
+}
+
+export function useUpcomingMatches(tour: ScoresTour, enabled = true) {
+  return useQuery({
+    queryKey: queryKeys.upcomingMatches(tour),
+    queryFn: () => getUpcomingMatches(tour),
+    staleTime: 15 * 60 * 1000,
+    enabled,
+  });
 }

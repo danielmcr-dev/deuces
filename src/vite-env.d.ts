@@ -2,8 +2,9 @@
 
 interface ImportMetaEnv {
   readonly VITE_DATA_SOURCE?: string;
-  readonly VITE_SPORTS_API_BASE_URL?: string;
-  readonly VITE_SPORTS_API_KEY?: string;
+  readonly VITE_LIVETENNIS_API_BASE_URL?: string;
+  readonly VITE_LIVETENNIS_API_KEY?: string;
+  readonly VITE_LIVETENNIS_DAILY_BUDGET?: string;
 }
 
 interface ImportMeta {

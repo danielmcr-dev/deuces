@@ -4,7 +4,7 @@ A tennis fan site for following ATP and WTA rankings, injuries, news, the season
 
 Built with **React 18 + TypeScript**, **Vite**, **Tailwind CSS**, **React Router** and **TanStack Query**. Followed players are saved in `localStorage`, so there's no login or backend.
 
-> **Demo data:** v1 ships with realistic mock data. Player names are real professionals, but rankings, points, injuries and news are samples. Champion histories are real for Grand Slams, 1000s, the ATP/WTA Finals and Beijing/Wuhan (2016–2025). For 250/500 events they are sample data, and the app labels them that way.
+> **Data:** out of the box, Deuces runs on bundled sample data. Add a free [Live Tennis API](https://livetennisapi.com) key to get real **rankings, player profiles and live scores** (see [Real data](#real-data-live-tennis-api)). News, the season calendar and injuries stay as sample data, because the free plan doesn't include them. Champion histories are real for Grand Slams, 1000s, the ATP/WTA Finals and Beijing/Wuhan (2016–2025); other events show labelled sample champions.
 
 ---
 
@@ -32,13 +32,14 @@ Other scripts:
 
 | Page | Route | Highlights |
 | --- | --- | --- |
-| Home | `/` | Top Stories, a latest-headlines feed with ATP/WTA filter, "On court now", top 5 per tour, injury snapshot |
+| Home | `/` | Top Stories, a latest-headlines feed with ATP/WTA filter, live matches, this week's events, top 5 per tour, injury snapshot |
+| Live scores | `/live` | Live and upcoming singles matches by tour (ATP, WTA, Challenger, ITF), refreshed every 5 min |
 | Rankings | `/rankings` (`?tour=WTA`) | ATP/WTA tabs; rank, flag, age, points and weekly movement; search by name, filter by country or injured; "last updated" time; auto-refreshes every 10 min |
 | Calendar | `/calendar` | Month and list views, colour-coded by surface and labelled by tier; filter by tour, surface and tier; live events highlighted; detail panel with 10 years of champions. Filters live in the URL, so views can be shared |
 | News | `/news` | Top Stories plus the full feed with ATP/WTA filter. Stories open in a new tab |
 | Injuries | `/injuries` | Every Injured or Returning player, with injury, date reported and expected return |
 | My Players | `/my-players` | Each followed player's ranking, injury status, upcoming tournaments and related news |
-| Player profile | `/players/:id` | Photo placeholder, country, age, height, playing hand, current and career-high rank, titles this season, injury details, follow button |
+| Player profile | `/players/:id` | Photo placeholder, country, age, height, playing hand, current and career-high rank, titles this season, next matches, injury details, follow button. Live data adds season record and Elo |
 
 **Accessibility:** semantic landmarks and tables, a skip link, keyboard-operable tabs (arrow keys), a focus-trapped dialog that closes with Esc, visible focus rings, screen-reader labels for movement arrows and flags, `prefers-reduced-motion` support, and AA-contrast colours on the navy theme.
 
@@ -50,7 +51,7 @@ Other scripts:
 
 ```
 deuces/
-├─ .env.example                 # Copy to .env to connect a real API
+├─ .env.example                 # Copy to .env to use Live Tennis API
 ├─ scripts/
 │  └─ generate-mock-data.mjs    # Builds the mock JSON (seeded, deterministic)
 ├─ public/images/news/          # Generated news artwork (SVG)
@@ -62,7 +63,9 @@ deuces/
    ├─ mocks/                    # Mock JSON (players, rankings-atp/wta, news, tournaments)
    ├─ services/                 # ⬅ The data layer: swap mock for live here
    │  ├─ config.ts              # Reads VITE_* env vars, mock vs live switch
-   │  ├─ apiClient.ts           # fetch wrapper (adds the API key) + mock delay
+   │  ├─ apiClient.ts           # Live Tennis API client (cache + daily budget) + mock delay
+   │  ├─ liveTennis/            # API types, mappers, rankings roster
+   │  ├─ matches.ts             # getLiveMatches, getUpcomingMatches
    │  ├─ players.ts             # getPlayers, getPlayer, getPlayersByIds
    │  ├─ rankings.ts            # getRankings, getRankingsWithPlayers
    │  ├─ injuries.ts            # getInjuredPlayers
@@ -87,80 +90,64 @@ deuces/
 
 ---
 
-## Connecting real data
+## Real data: Live Tennis API
 
-All data access goes through `src/services/`. Components and hooks only call those typed functions, so switching to a real provider changes nothing outside that folder.
+Deuces is wired to [Live Tennis API](https://livetennisapi.com)'s **free plan**: no card, no trial, 100 requests a day and 30 a minute ([API reference](https://docs.livetennisapi.com/reference.html)).
 
-There is no free official ATP/WTA API. Commercial providers that offer tennis data include Sportradar, API-Tennis, SportDevs, Goalserve and the tennis APIs on RapidAPI. Any of them works as long as you map its responses to the types in `src/types/index.ts`.
+### Turn it on
 
-### 1. Add your key to `.env`
+1. Get a free key at [livetennisapi.com](https://livetennisapi.com).
+2. Create `.env` in the project root:
 
-```bash
-cp .env.example .env
-```
+   ```dotenv
+   VITE_DATA_SOURCE=live
+   VITE_LIVETENNIS_API_KEY=twjp_your_key_here
+   ```
 
-```dotenv
-VITE_DATA_SOURCE=live
-VITE_SPORTS_API_BASE_URL=https://api.your-provider.com/v1
-VITE_SPORTS_API_KEY=your-secret-key
-```
+3. Restart `npm run dev`.
 
-`.env` is in `.gitignore`. Restart `npm run dev` after editing it.
+`.env` is gitignored, so never commit your key. Vite puts `VITE_*` values into the browser bundle, so the key is visible to anyone using the site. Live Tennis API says that's acceptable for a **free** key, since it's rate-capped and revocable. A paid key should sit behind a server-side proxy instead.
 
-> ⚠️ Vite inlines every `VITE_*` variable into the browser bundle, so anyone using the site can read the key. That's fine for local development or a key restricted by domain or referrer. For a public deployment, put a small proxy in front of the API (for example a Cloudflare Worker, Netlify/Vercel function or Express route) that adds the key on the server, and point `VITE_SPORTS_API_BASE_URL` at the proxy.
+### What comes from where
 
-### 2. Set the auth header
-
-`src/services/apiClient.ts` → `apiGet()` sends `Authorization: Bearer <key>` by default. Change it to whatever your provider expects, for example:
-
-```ts
-headers: { 'x-rapidapi-key': API_KEY, 'x-rapidapi-host': 'tennis-api.p.rapidapi.com' }
-// or append ?api_key=… with url.searchParams.set('api_key', API_KEY)
-```
-
-### 3. Fill in the `live` branch of each service
-
-Each service already has an `if (isLive())` branch marked `TODO(live)`. Replace the placeholder path with your provider's endpoint and map the response to our types:
-
-```ts
-// src/services/rankings.ts
-export async function getRankings(tour: Tour): Promise<Rankings> {
-  if (isLive()) {
-    const raw = await apiGet<ProviderRankingResponse>(`/rankings/${tour.toLowerCase()}`);
-    return {
-      tour,
-      rankingDate: raw.updated_at.slice(0, 10),
-      entries: raw.rankings.slice(0, 100).map((r) => ({
-        rank: r.rank,
-        previousRank: r.previous_rank ?? r.rank,
-        playerId: String(r.competitor.id),
-        points: r.points,
-      })),
-    };
-  }
-  return mockDelay(mockRankings[tour]);
-}
-```
-
-| Service | Function(s) to implement | Maps to |
+| Feature | Live mode source | API calls |
 | --- | --- | --- |
-| `players.ts` | `getPlayers`, `getPlayer` | `Player` (bio + `status`/`injury`) |
-| `rankings.ts` | `getRankings` | `Rankings` |
-| `injuries.ts` | `getInjuredPlayers` | `Player[]` with `status` ≠ `Active` |
-| `news.ts` | `getNews` | `NewsItem[]` (tag `playerIds` so My Players can match stories) |
-| `tournaments.ts` | `getTournaments` | `Tournament[]` incl. `champions` |
+| Rankings (top 100 ATP & WTA) | `GET /players?limit=200` × 2 (returned ranked-first) | 2, cached 3 h |
+| Player profile (height, peak rank, season record, Elo) | `GET /players/{id}` | 1 per player, cached 24 h |
+| Live scores | `GET /matches?status=live&draw=singles` | 1, cached 4 min |
+| Upcoming matches | `GET /matches?status=upcoming&tour=…` | 1 per tour, cached 30 min |
+| Next matches on profiles / My Players | picked from the cached match lists | 0 |
+| News, season calendar, past champions | sample data (`src/mocks/`) | 0 |
+| Injuries | curated sample list, matched to real players by name | 0 |
 
-Tips:
+The free plan has no "previous rank" figure, only up/down/same, so live rankings show movement arrows without the number of places. The API's season stats can lag a season behind, so profiles label titles and the win–loss record with the season they cover. Rankings history, injury reports and completed results need paid plans.
 
-- **Player IDs** must match across rankings, players and news. Use the provider's competitor ID everywhere.
-- **Injuries:** few providers expose injuries directly. You can derive them from withdrawal/retirement feeds or keep a small curated JSON file.
-- **News** can come from a separate source, such as an RSS-to-JSON service or a news API filtered on "tennis". Just map it to `NewsItem`.
-- **Upcoming tournaments** for a player use a heuristic in `upcomingForPlayer()`. If your provider has entry lists, replace the heuristic with real data.
-- **Caching and refresh:** rankings refetch every 10 minutes (`refetchInterval` in `src/hooks/queries.ts`). Raise this if your plan has tight rate limits.
+### Staying inside 100 calls a day
 
-Leave `VITE_DATA_SOURCE` unset, or set it to `mock`, to switch back to the bundled data at any time.
+`src/services/apiClient.ts` (`liveGet`) protects the quota:
 
----
+- **Caching:** every response is stored in `localStorage` with a per-endpoint lifetime, and repeat visits and reloads reuse it. A typical browse of every page uses about 6 calls.
+- **Budget:** the client stops making new calls at 90 a day (`VITE_LIVETENNIS_DAILY_BUDGET`) and serves the last saved data instead, with a "Showing saved data" notice.
+- **Rate limits:** if the API returns 429, the client shows cached data and a friendly message rather than retrying.
+- **Visibility:** the footer shows calls used today.
+
+Leave `VITE_DATA_SOURCE` unset, or set it to `mock`, to go back to sample data at any time.
+
+### Code map
+
+```
+src/services/
+├─ config.ts              # VITE_* settings, mock/live switch, daily budget
+├─ apiClient.ts           # liveGet(): fetch + cache + budget + error handling
+├─ liveTennis/
+│  ├─ types.ts            # Raw API response shapes
+│  ├─ mappers.ts          # API → app types (Player, RankingEntry, Match)
+│  └─ roster.ts           # Top-100 rankings for both tours from /players
+├─ players.ts · rankings.ts · matches.ts   # use live data when enabled
+└─ news.ts · tournaments.ts · injuries.ts  # sample data (plug other sources in here)
+```
+
+To add free news later, fetch an RSS feed or a free news API (NewsData.io, The Guardian) in `news.ts` and map it to `NewsItem`.
 
 ## Customising
 

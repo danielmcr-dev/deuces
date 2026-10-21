@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import type { Tour } from '@/types';
-import { useInjuredPlayers, useRankings, useTournaments } from '@/hooks/queries';
+import { useInjuredPlayers, useLiveMatches, useRankings, useTournaments } from '@/hooks/queries';
+import { MatchCard } from '@/components/MatchCard';
 import { useDocumentTitle } from '@/hooks/useDocumentTitle';
 import { NewsFeed } from '@/components/NewsFeed';
 import { TournamentCard } from '@/components/TournamentCard';
@@ -33,7 +34,7 @@ function TopFive({ tour }: { tour: Tour }) {
           {data!.entries.slice(0, 5).map((e) => (
             <li key={e.playerId} className="flex items-center gap-2 rounded-lg px-1 py-1.5 text-sm hover:bg-navy-800">
               <span className="w-5 text-right font-display text-lg font-bold text-slate-300">{e.rank}</span>
-              <MovementIndicator rank={e.rank} previousRank={e.previousRank} />
+              <MovementIndicator rank={e.rank} previousRank={e.previousRank} movement={e.movement} />
               <CountryFlag countryCode={e.player.countryCode} countryName={e.player.countryName} showCode={false} />
               <Link to={`/players/${e.player.id}`} className="min-w-0 flex-1 truncate font-medium text-slate-100 hover:text-ball">
                 {e.player.name}
@@ -48,27 +49,54 @@ function TopFive({ tour }: { tour: Tour }) {
 }
 
 function OnCourtNow() {
+  const live = useLiveMatches();
   const { data, isLoading, isError, refetch, error } = useTournaments();
   const today = todayIso();
-  const live = data?.filter((t) => isInProgress(t.startDate, t.endDate, today)) ?? [];
+  // Show tour-level matches first; fall back to lower tours if that's all that's on.
+  const all = live.data?.matches ?? [];
+  const tourLevel = all.filter((m) => m.tour === 'ATP' || m.tour === 'WTA');
+  const liveList = (tourLevel.length ? tourLevel : all).slice(0, 4);
+  const events = data?.filter((t) => isInProgress(t.startDate, t.endDate, today)) ?? [];
   const next = data?.filter((t) => t.startDate > today).slice(0, 3) ?? [];
-  const list = live.length ? live : next;
+
   return (
     <section aria-labelledby="on-court" className="space-y-3">
       <div className="flex items-center justify-between">
-        <h3 id="on-court" className="heading-display text-xl text-slate-50">{live.length ? 'On court now' : 'Coming up'}</h3>
+        <h3 id="on-court" className="heading-display text-xl text-slate-50">On court now</h3>
+        <Link to="/live" className="text-xs font-semibold text-ball hover:underline">All live scores →</Link>
+      </div>
+      {live.isLoading ? (
+        <LoadingRegion label="Loading live scores…" className="space-y-3">
+          <Skeleton className="h-24 w-full rounded-2xl" />
+          <Skeleton className="h-24 w-full rounded-2xl" />
+        </LoadingRegion>
+      ) : live.isError ? (
+        <ErrorMessage title="Live scores unavailable" error={live.error} onRetry={() => live.refetch()} />
+      ) : liveList.length > 0 ? (
+        <ul className="space-y-3">
+          {liveList.map((m) => (
+            <li key={m.id}>
+              <MatchCard match={m} />
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p className="card p-4 text-sm text-slate-300">No matches in progress right now.</p>
+      )}
+
+      <div className="flex items-center justify-between pt-2">
+        <h3 className="heading-display text-xl text-slate-50">{events.length ? 'This week' : 'Coming up'}</h3>
         <Link to="/calendar" className="text-xs font-semibold text-ball hover:underline">Calendar →</Link>
       </div>
       {isLoading ? (
-        <LoadingRegion label="Loading tournaments…" className="space-y-3">
-          <Skeleton className="h-28 w-full rounded-2xl" />
+        <LoadingRegion label="Loading tournaments…">
           <Skeleton className="h-28 w-full rounded-2xl" />
         </LoadingRegion>
       ) : isError ? (
         <ErrorMessage title="Calendar unavailable" error={error} onRetry={() => refetch()} />
       ) : (
         <ul className="space-y-3">
-          {list.map((t) => (
+          {(events.length ? events : next).map((t) => (
             <li key={t.id}>
               <Link to={`/calendar?view=list&t=${t.id}`} className="block rounded-2xl" aria-label={`${t.name} — view in calendar`}>
                 <TournamentCard tournament={t} compact />

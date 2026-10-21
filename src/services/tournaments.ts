@@ -1,20 +1,15 @@
 import type { Player, Tournament, Tour } from '@/types';
 import tournamentsJson from '@/mocks/tournaments.json';
-import { isLive } from './config';
-import { apiGet, ApiError, mockDelay } from './apiClient';
+import { ApiError, mockDelay } from './apiClient';
 import { todayIso } from '@/utils/dates';
 
 const mockTournaments = tournamentsJson as Tournament[];
 
 /** The full season calendar, ordered by start date. */
 export async function getTournaments(tour?: Tour): Promise<Tournament[]> {
-  let items: Tournament[];
-  if (isLive()) {
-    // TODO(live): map your provider's calendar/schedule endpoint to `Tournament[]`.
-    items = await apiGet<Tournament[]>('/tournaments', { season: String(new Date().getFullYear()) });
-  } else {
-    items = await mockDelay(mockTournaments);
-  }
+  // Live Tennis API's tournament catalogue has no dates or champion history,
+  // so the season calendar stays on the bundled data in both modes.
+  const items = await mockDelay(mockTournaments);
   return items
     .filter((t) => !tour || t.tours.includes(tour))
     .sort((a, b) => a.startDate.localeCompare(b.startDate));
